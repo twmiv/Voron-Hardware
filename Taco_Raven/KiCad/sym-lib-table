@@ -1,5 +1,4 @@
 (sym_lib_table
+  (lib (name MZBOT)(type Legacy)(uri ${KIPRJMOD}/MZBOT.lib)(options "")(descr ""))
   (lib (name Voron_Klipper_Board-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Voron_Klipper_Board-eagle-import.lib)(options "")(descr ""))
-  (lib (name Voron_Klipper_Board-rescue)(type Legacy)(uri ${KIPRJMOD}/Voron_Klipper_Board-rescue.lib)(options "")(descr ""))
-  (lib (name MZBot_Library)(type Legacy)(uri C:/Users/timot/Documents/GitHub/Voron-Hardware/Taco_Raven/KiCad/MZBOT.lib)(options "")(descr ""))
 )

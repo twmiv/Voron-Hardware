@@ -48,10 +48,6 @@ Wire Wire Line
 Wire Wire Line
 	2725 4800 2850 4800
 Wire Wire Line
-	2725 4700 2850 4700
-Wire Wire Line
-	2725 4600 2850 4600
-Wire Wire Line
 	6250 3900 6100 3900
 Wire Wire Line
 	6250 4000 6100 4000
@@ -84,7 +80,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 3100 2850 3100
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5BAABBDC
 P 7625 5600
 AR Path="/5B81CA77/5BAABBDC" Ref="#PWR?"  Part="1" 
@@ -101,7 +97,7 @@ F 3 "" H 7625 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:CONN_01X04-MZBOT J?
+L MZBOT:CONN_01X04 J?
 U 1 1 5BAABBE2
 P 8775 5550
 AR Path="/5BBBA893/5BAABBE2" Ref="J?"  Part="1" 
@@ -126,7 +122,7 @@ Wire Wire Line
 Wire Wire Line
 	8475 5400 8475 5300
 $Comp
-L Voron_Klipper_Board-rescue:+5V-MZBOT #PWR010
+L MZBOT:+5V #PWR010
 U 1 1 5BAABBED
 P 8475 5300
 AR Path="/5B81CA18/5BAABBED" Ref="#PWR010"  Part="1" 
@@ -141,7 +137,7 @@ $EndComp
 Text Notes 8300 6175 0    118  ~ 24
 PANELDUE\n
 $Comp
-L Voron_Klipper_Board-rescue:CONN_02X05-MZBOT J?
+L MZBOT:CONN_02X05 J?
 U 1 1 5BAABBF6
 P 8125 1150
 AR Path="/5BBBA893/5BAABBF6" Ref="J?"  Part="1" 
@@ -164,7 +160,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 2175 7800 2275
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5BAABC07
 P 7800 2275
 AR Path="/5B81CA77/5BAABC07" Ref="#PWR?"  Part="1" 
@@ -193,7 +189,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 1350 7800 1450
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5BAABC1B
 P 7800 1450
 AR Path="/5B81CA77/5BAABC1B" Ref="#PWR?"  Part="1" 
@@ -215,32 +211,28 @@ Wire Wire Line
 	8475 1050 8375 1050
 Wire Wire Line
 	8475 2075 8375 2075
-Wire Wire Line
-	8500 1275 8500 1350
-Wire Wire Line
-	8500 1350 8375 1350
 Text Notes 7450 2975 0    118  ~ 24
   REPRAP FULL\nGRAPHICS DISPLAY
 $Comp
-L Voron_Klipper_Board-rescue:+5V-MZBOT #PWR011
+L MZBOT:+5V #PWR011
 U 1 1 5BAABC27
-P 8500 1275
+P 8975 1350
 AR Path="/5B81CA18/5BAABC27" Ref="#PWR011"  Part="1" 
 AR Path="/5BBBA893/5BAABC27" Ref="#PWR?"  Part="1" 
-F 0 "#PWR011" H 8500 1125 50  0001 C CNN
-F 1 "+5V" H 8500 1425 39  0000 C CNN
-F 2 "" H 8500 1275 50  0001 C CNN
-F 3 "" H 8500 1275 50  0001 C CNN
-	1    8500 1275
+F 0 "#PWR011" H 8975 1200 50  0001 C CNN
+F 1 "+5V" H 8975 1500 39  0000 C CNN
+F 2 "" H 8975 1350 50  0001 C CNN
+F 3 "" H 8975 1350 50  0001 C CNN
+	1    8975 1350
 	1    0    0    -1  
 $EndComp
-Text GLabel 6250 2250 2    39   Input ~ 0
+Text GLabel 6250 5700 2    39   Input ~ 0
 SPI_CLK
-Text GLabel 6250 2150 2    39   Input ~ 0
+Text GLabel 6250 5900 2    39   Input ~ 0
 SPI_SDI
-Text GLabel 6250 2350 2    39   Input ~ 0
+Text GLabel 6250 5800 2    39   Input ~ 0
 SPI_SDO
-Text GLabel 2725 5300 0    39   Input ~ 0
+Text GLabel 2700 4700 0    39   Input ~ 0
 TMC_EN
 Wire Wire Line
 	2725 4900 2850 4900
@@ -248,58 +240,50 @@ Wire Wire Line
 	8475 5600 8575 5600
 Wire Wire Line
 	8475 5700 8575 5700
-Text GLabel 2700 3900 0    39   Input ~ 0
+Text GLabel 2700 4200 0    39   Input ~ 0
 DIR_Z0
-Text GLabel 2700 4000 0    39   Input ~ 0
+Text GLabel 2700 4300 0    39   Input ~ 0
 STEP_Z0
-Text GLabel 2725 4300 0    39   Input ~ 0
+Text GLabel 2700 4600 0    39   Input ~ 0
 DIR_Z1
-Text GLabel 2725 4700 0    39   Input ~ 0
+Text GLabel 6250 2750 2    39   Input ~ 0
 DIR_Z2
-Text GLabel 2725 4800 0    39   Input ~ 0
+Text GLabel 6250 2850 2    39   Input ~ 0
 STEP_Z2
-Text GLabel 6250 3350 2    39   Input ~ 0
+Text GLabel 6250 3050 2    39   Input ~ 0
 DIR_Z3
-Text GLabel 2725 5000 0    39   Input ~ 0
+Text GLabel 6250 5500 2    39   Input ~ 0
 STEP_Z3
-Text GLabel 6250 2050 2    39   Input ~ 0
+Text GLabel 7350 3375 2    39   Input ~ 0
 RRFGD_SDCSEL
-Text GLabel 6250 1550 2    39   Input ~ 0
+Text GLabel 6250 3350 2    39   Input ~ 0
 RRFGD_LCDRS
-Text GLabel 2700 2900 0    39   Input ~ 0
+Text GLabel 2725 5300 0    39   Input ~ 0
 RRFGD_LCDE
-Text GLabel 2700 2800 0    39   Input ~ 0
+Text GLabel 6250 3250 2    39   Input ~ 0
 RRFGD_LCD4
-Text GLabel 6250 6000 2    39   Input ~ 0
+Text GLabel 2700 4100 0    39   Input ~ 0
 HEATED_CHAMBER
-Text GLabel 6250 3900 2    39   Input ~ 0
-EXP_I2C_OSCK
 Text GLabel 6250 4200 2    39   Input ~ 0
+EXP_I2C_OSCK
+Text GLabel 6250 3900 2    39   Input ~ 0
 EXP_I2C_SCL
 Text GLabel 6250 4100 2    39   Input ~ 0
 EXP_I2C_SDA
 Text GLabel 2700 3100 0    39   Input ~ 0
 VREF
-Text GLabel 6250 3250 2    39   Input ~ 0
-SPI_CS_Z2
-Text GLabel 6250 3550 2    39   Input ~ 0
-SPI_CS_Z3
-Text GLabel 2700 4200 0    39   Input ~ 0
-SPI_CS_Z0
-Text GLabel 6250 6400 2    39   Input ~ 0
+Text GLabel 2700 4400 0    39   Input ~ 0
 ENDSTOP_E1
 Text GLabel 6250 4000 2    39   Input ~ 0
 EXP_I2C_INT
-Text GLabel 6250 4300 2    39   Input ~ 0
+Text GLabel 6250 6600 2    39   Input ~ 0
 EXP_I2C_RST
-Text GLabel 2725 4900 0    39   Input ~ 0
+Text GLabel 6250 2950 2    39   Input ~ 0
 DIAG_Z2
-Text GLabel 6250 3450 2    39   Input ~ 0
+Text GLabel 2725 4800 0    39   Input ~ 0
 DIAG_Z3
-Text GLabel 2700 4100 0    39   Input ~ 0
+Text GLabel 2700 4500 0    39   Input ~ 0
 DIAG_Z0
-Text GLabel 2725 4500 0    39   Input ~ 0
-DIAG_Z1
 Text GLabel 6250 4400 2    39   Input ~ 0
 T0
 Text GLabel 6250 4800 2    39   Input ~ 0
@@ -310,15 +294,15 @@ Text GLabel 6250 4600 2    39   Input ~ 0
 T2
 Text GLabel 6250 4700 2    39   Input ~ 0
 T3
-Text GLabel 6250 5500 2    39   Input ~ 0
+Text GLabel 6250 6100 2    39   Input ~ 0
 RRFGD_BTN_EN1
-Text GLabel 2700 3000 0    39   Input ~ 0
-RRFGD_BTN_EN2
-Text GLabel 6250 5600 2    39   Input ~ 0
-ENDSTOP_X
 Text GLabel 6250 6200 2    39   Input ~ 0
+RRFGD_BTN_EN2
+Text GLabel 6250 2050 2    39   Input ~ 0
+ENDSTOP_X
+Text GLabel 6250 2250 2    39   Input ~ 0
 Z_PROBE
-Text GLabel 6250 6300 2    39   Input ~ 0
+Text GLabel 6250 2350 2    39   Input ~ 0
 ENDSTOP_E0
 Text GLabel 8475 1050 2    39   Input ~ 0
 RRFGD_LCDRS
@@ -326,16 +310,14 @@ Text GLabel 7700 1050 0    39   Input ~ 0
 RRFGD_LCDE
 Text GLabel 7700 1150 0    39   Input ~ 0
 RRFGD_LCD4
-Text GLabel 7700 1875 0    39   Input ~ 0
-RRFGD_BTN_EN1
 Text GLabel 7700 1975 0    39   Input ~ 0
+RRFGD_BTN_EN1
+Text GLabel 7700 1875 0    39   Input ~ 0
 RRFGD_BTN_EN2
 Wire Wire Line
 	2700 4100 2850 4100
-Wire Wire Line
-	2725 4500 2850 4500
 $Comp
-L Voron_Klipper_Board-rescue:SAM51-MZBOT U21
+L MZBOT:SAM51 U21
 U 1 1 5BB4B075
 P 4450 4000
 F 0 "U21" H 4475 7215 50  0000 C CNN
@@ -350,7 +332,7 @@ F 7 "4.99" H 4450 4000 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 5BC10ED3
 P 925 1350
 AR Path="/5B81CA77/5BC10ED3" Ref="C?"  Part="1" 
@@ -482,30 +464,30 @@ Connection ~ 1125 1625
 Wire Wire Line
 	1125 1625 1325 1625
 Wire Wire Line
-	925  1625 925  1750
+	925  1625 925  1675
 Connection ~ 925  1625
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5BD1557A
-P 925 1750
+P 925 1675
 AR Path="/5B81CA77/5BD1557A" Ref="#PWR?"  Part="1" 
 AR Path="/5B81CABC/5BD1557A" Ref="#PWR?"  Part="1" 
 AR Path="/5BAA6E9F/5BD1557A" Ref="#PWR?"  Part="1" 
 AR Path="/5BBA0EB5/5BD1557A" Ref="#PWR?"  Part="1" 
 AR Path="/5BBBA893/5BD1557A" Ref="#PWR?"  Part="1" 
 AR Path="/5B81CA18/5BD1557A" Ref="#PWR02"  Part="1" 
-F 0 "#PWR02" H 925 1500 50  0001 C CNN
-F 1 "GND" H 930 1577 50  0000 C CNN
-F 2 "" H 925 1750 50  0001 C CNN
-F 3 "" H 925 1750 50  0001 C CNN
-	1    925  1750
+F 0 "#PWR02" H 925 1425 50  0001 C CNN
+F 1 "GND" H 930 1502 50  0000 C CNN
+F 2 "" H 925 1675 50  0001 C CNN
+F 3 "" H 925 1675 50  0001 C CNN
+	1    925  1675
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	925  1150 925  1050
 Connection ~ 925  1150
 $Comp
-L Voron_Klipper_Board-rescue:+3.3V-MZBOT #PWR01
+L MZBOT:+3.3V #PWR01
 U 1 1 5BD201AF
 P 925 1050
 F 0 "#PWR01" H 925 900 50  0001 C CNN
@@ -527,16 +509,16 @@ Text GLabel 6250 6500 2    50   Input ~ 0
 SWO
 Wire Wire Line
 	6250 6500 6100 6500
-Text GLabel 1400 5200 2    50   Input ~ 0
+Text GLabel 1400 5425 2    50   Input ~ 0
 D-
-Text GLabel 1400 5100 2    50   Input ~ 0
+Text GLabel 1400 5325 2    50   Input ~ 0
 D+
 Wire Wire Line
-	1400 5200 1250 5200
+	1400 5425 1250 5425
 Wire Wire Line
-	1400 5100 1250 5100
+	1400 5325 1250 5325
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5BD8E721
 P 2675 6825
 AR Path="/5B81CA77/5BD8E721" Ref="#PWR?"  Part="1" 
@@ -592,59 +574,55 @@ Connection ~ 2675 6500
 Wire Wire Line
 	2675 6500 2675 6600
 $Comp
-L Voron_Klipper_Board-rescue:Inductor-MZBOT L?
+L MZBOT:Inductor L?
 U 1 1 5BE01BBF
-P 2525 2400
+P 2075 2400
 AR Path="/5BAC0BFC/5BE01BBF" Ref="L?"  Part="1" 
 AR Path="/5B81CA18/5BE01BBF" Ref="L1"  Part="1" 
-F 0 "L1" H 2525 2603 50  0000 C CNN
-F 1 "10uH" H 2525 2512 50  0000 C CNN
-F 2 "MZBOT:L_0805_2012Metric" H 2525 2400 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_mlz2012_en.pdf" H 2525 2400 50  0001 C CNN
-F 4 "500mA" H 2650 2375 16  0000 C CNN "Current"
-F 5 "110mA" H 2525 2400 50  0001 C CNN "Saturation Current"
-F 6 "0805" H 2425 2375 16  0000 C CNN "Package"
-F 7 "TDK Corporation" H 2525 2400 50  0001 C CNN "MFG"
-F 8 "MLZ2012N100LT000" H 2525 2400 50  0001 C CNN "MFG PN"
-F 9 "445-6762-1-ND" H 2525 2400 50  0001 C CNN "Digikey P/N"
-F 10 "0.14" H 2525 2400 50  0001 C CNN "Digikey Price"
-	1    2525 2400
+F 0 "L1" H 2075 2603 50  0000 C CNN
+F 1 "10uH" H 2075 2512 50  0000 C CNN
+F 2 "MZBOT:L_0805_2012Metric" H 2075 2400 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_mlz2012_en.pdf" H 2075 2400 50  0001 C CNN
+F 4 "500mA" H 2200 2375 16  0000 C CNN "Current"
+F 5 "110mA" H 2075 2400 50  0001 C CNN "Saturation Current"
+F 6 "0805" H 1975 2375 16  0000 C CNN "Package"
+F 7 "TDK Corporation" H 2075 2400 50  0001 C CNN "MFG"
+F 8 "MLZ2012N100LT000" H 2075 2400 50  0001 C CNN "MFG PN"
+F 9 "445-6762-1-ND" H 2075 2400 50  0001 C CNN "Digikey P/N"
+F 10 "0.14" H 2075 2400 50  0001 C CNN "Digikey Price"
+	1    2075 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 2150 1825 2150
+	1375 2150 1375 2400
 Wire Wire Line
-	1825 2150 1825 2400
+	1375 2400 1575 2400
 Wire Wire Line
-	1825 2400 2025 2400
+	1375 2475 1375 2400
+Connection ~ 1375 2400
 Wire Wire Line
-	1825 2475 1825 2400
-Connection ~ 1825 2400
+	1575 2475 1575 2400
+Connection ~ 1575 2400
 Wire Wire Line
-	2025 2475 2025 2400
-Connection ~ 2025 2400
+	1575 2400 1775 2400
+Connection ~ 1775 2400
 Wire Wire Line
-	2025 2400 2225 2400
-Connection ~ 2225 2400
+	1775 2400 1875 2400
 Wire Wire Line
-	2225 2400 2325 2400
+	1775 2400 1775 2475
 Wire Wire Line
-	2225 2400 2225 2475
+	1775 2775 1775 2875
 Wire Wire Line
-	2225 2775 2225 2875
+	1775 2875 1575 2875
 Wire Wire Line
-	2225 2875 2025 2875
+	1375 2875 1375 2775
 Wire Wire Line
-	1825 2875 1825 2775
+	1575 2775 1575 2875
+Connection ~ 1575 2875
 Wire Wire Line
-	2025 2775 2025 2875
-Connection ~ 2025 2875
-Wire Wire Line
-	2025 2875 1825 2875
-Wire Wire Line
-	2725 2400 2850 2400
+	1575 2875 1375 2875
 $Comp
-L Voron_Klipper_Board-rescue:R_0805-MZBOT R?
+L MZBOT:R_0805 R?
 U 1 1 5BEB9DBC
 P 2525 1400
 AR Path="/5B81CA77/5BEB9DBC" Ref="R?"  Part="1" 
@@ -673,30 +651,30 @@ Wire Wire Line
 Wire Wire Line
 	2525 1950 2400 1950
 Wire Wire Line
-	1625 1950 1625 2475
+	1175 1950 1175 2475
 Wire Wire Line
 	2850 1950 2525 1950
 Connection ~ 2525 1950
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5BE99F48
-P 1425 3000
+P 975 3000
 AR Path="/5B81CA77/5BE99F48" Ref="#PWR?"  Part="1" 
 AR Path="/5B81CABC/5BE99F48" Ref="#PWR?"  Part="1" 
 AR Path="/5BAA6E9F/5BE99F48" Ref="#PWR?"  Part="1" 
 AR Path="/5BBA0EB5/5BE99F48" Ref="#PWR?"  Part="1" 
 AR Path="/5BBBA893/5BE99F48" Ref="#PWR?"  Part="1" 
 AR Path="/5B81CA18/5BE99F48" Ref="#PWR03"  Part="1" 
-F 0 "#PWR03" H 1425 2750 50  0001 C CNN
-F 1 "GND" H 1430 2827 50  0000 C CNN
-F 2 "" H 1425 3000 50  0001 C CNN
-F 3 "" H 1425 3000 50  0001 C CNN
-	1    1425 3000
+F 0 "#PWR03" H 975 2750 50  0001 C CNN
+F 1 "GND" H 980 2827 50  0000 C CNN
+F 2 "" H 975 3000 50  0001 C CNN
+F 3 "" H 975 3000 50  0001 C CNN
+	1    975  3000
 	1    0    0    -1  
 $EndComp
-Connection ~ 1825 2875
+Connection ~ 1375 2875
 Wire Wire Line
-	1425 2875 1425 3000
+	975  2875 975  3000
 Text GLabel 2700 3500 0    50   Input ~ 0
 FLASH_IO0
 Wire Wire Line
@@ -721,12 +699,10 @@ Text GLabel 6250 5000 2    50   Input ~ 0
 FLASH_CS
 Wire Wire Line
 	6250 5000 6100 5000
-Text GLabel 6250 5700 2    39   Input ~ 0
+Text GLabel 6250 2450 2    39   Input ~ 0
 BED
-Text GLabel 6250 5800 2    39   Input ~ 0
+Text GLabel 2700 4000 0    39   Input ~ 0
 HOTEND0
-Text GLabel 6250 5900 2    39   Input ~ 0
-HOTEND1
 Text GLabel 6250 1950 2    39   Input ~ 0
 FAN4
 Text GLabel 6250 5400 2    39   Input ~ 0
@@ -763,25 +739,23 @@ Wire Wire Line
 	6250 2150 6100 2150
 Wire Wire Line
 	6250 2050 6100 2050
-Text GLabel 6250 1850 2    39   Input ~ 0
-SPI_CS_X
 Text GLabel 6250 1650 2    39   Input ~ 0
 DIR_X
-Text GLabel 2700 3400 0    39   Input ~ 0
+Text GLabel 6250 1750 2    39   Input ~ 0
 STEP_X
-Text GLabel 6250 2650 2    39   Input ~ 0
+Text GLabel 6250 3450 2    39   Input ~ 0
 PD_TX_RRFGD_BTN_ENC
 Wire Wire Line
 	6100 2450 6250 2450
-Text GLabel 6250 2550 2    39   Input ~ 0
+Text GLabel 6250 3550 2    39   Input ~ 0
 PD_RX_RRFGD_BUZ
 Wire Wire Line
 	6250 2550 6100 2550
-Text GLabel 6250 2450 2    39   Input ~ 0
+Text GLabel 2700 3200 0    39   Input ~ 0
 DIR_Y
 Text GLabel 2700 3300 0    39   Input ~ 0
 STEP_Y
-Text GLabel 6250 1750 2    39   Input ~ 0
+Text GLabel 6250 1850 2    39   Input ~ 0
 DIAG_X
 Wire Wire Line
 	6250 2750 6100 2750
@@ -801,21 +775,17 @@ Wire Wire Line
 	6250 3450 6100 3450
 Wire Wire Line
 	6250 3550 6100 3550
-Text GLabel 6250 2950 2    39   Input ~ 0
+Text GLabel 2700 2900 0    39   Input ~ 0
 DIR_E0
-Text GLabel 2700 3200 0    39   Input ~ 0
+Text GLabel 2700 3000 0    39   Input ~ 0
 STEP_E0
-Text GLabel 6250 1250 2    39   Input ~ 0
+Text GLabel 6250 1350 2    39   Input ~ 0
 DIR_E1
-Text GLabel 2700 2700 0    39   Input ~ 0
+Text GLabel 6250 1450 2    39   Input ~ 0
 STEP_E1
-Text GLabel 6250 3150 2    39   Input ~ 0
-SPI_CS_E0
-Text GLabel 6250 2850 2    39   Input ~ 0
-SPI_CS_Y
-Text GLabel 6250 2750 2    39   Input ~ 0
+Text GLabel 2700 3400 0    39   Input ~ 0
 DIAG_Y
-Text GLabel 6250 3050 2    39   Input ~ 0
+Text GLabel 6250 4300 2    39   Input ~ 0
 DIAG_E0
 Wire Wire Line
 	6250 1550 6100 1550
@@ -827,63 +797,55 @@ Wire Wire Line
 	6250 6600 6100 6600
 Wire Wire Line
 	2850 5300 2725 5300
-Text GLabel 2725 4600 0    39   Input ~ 0
-SPI_CS_Z1
-Wire Wire Line
-	2725 4300 2850 4300
-Wire Wire Line
-	2725 4400 2850 4400
-Text Notes 6675 5625 0    39   ~ 0
-TCC(3.1)(0.5)
-Text Notes 6575 5725 0    39   ~ 0
-TCC1.0
-Text Notes 6600 5825 0    39   ~ 0
-TCC1.1
-Text Notes 6600 5925 0    39   ~ 0
-TCC1.2
-Text Notes 6850 6025 0    39   ~ 0
-TCC1.3\n
+Text Notes 6675 2075 0    39   ~ 0
+TCC0.6
+Text Notes 2375 4314 2    39   ~ 0
+TCC1.0\n
+Text Notes 2350 4614 2    39   ~ 0
+TCC1.3
+Text Notes 6850 2775 0    39   ~ 0
+{Still Valid?} TCC1.3\n
 $Comp
-L Voron_Klipper_Board-rescue:USB_MINI-MZBOT J34
+L MZBOT:USB_MINI J34
 U 1 1 5C6A5C41
-P 950 5100
-F 0 "J34" H 1005 5567 50  0000 C CNN
-F 1 "USB_MINI" H 1005 5476 50  0000 C CNN
-F 2 "MZBOT:USB_Mini-B_Lumberg_2486_01_Horizontal" H 950 5100 50  0001 C CNN
-F 3 "http://files.edac.net/690-005-299-043.pdf" H 950 5100 50  0001 C CNN
-F 4 "EDAC Inc." H 950 5100 50  0001 C CNN "MFG"
-F 5 "690-005-299-043" H 950 5100 50  0001 C CNN "MFG PN"
-F 6 "151-1206-1-ND" H 950 5100 50  0001 C CNN "Digikey P/N"
-F 7 "0.58" H 950 5100 50  0001 C CNN "Digikey Price"
-	1    950  5100
+P 950 5325
+F 0 "J34" H 1005 5792 50  0000 C CNN
+F 1 "USB_MINI" H 1005 5701 50  0000 C CNN
+F 2 "MZBOT:USB_Mini-B_Lumberg_2486_01_Horizontal" H 950 5325 50  0001 C CNN
+F 3 "http://files.edac.net/690-005-299-043.pdf" H 950 5325 50  0001 C CNN
+F 4 "EDAC Inc." H 950 5325 50  0001 C CNN "MFG"
+F 5 "690-005-299-043" H 950 5325 50  0001 C CNN "MFG PN"
+F 6 "151-1206-1-ND" H 950 5325 50  0001 C CNN "Digikey P/N"
+F 7 "0.58" H 950 5325 50  0001 C CNN "Digikey Price"
+	1    950  5325
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5C6D672A
-P 850 5600
+P 850 5825
 AR Path="/5B81CA77/5C6D672A" Ref="#PWR?"  Part="1" 
 AR Path="/5B81CABC/5C6D672A" Ref="#PWR?"  Part="1" 
 AR Path="/5BAA6E9F/5C6D672A" Ref="#PWR?"  Part="1" 
 AR Path="/5BBA0EB5/5C6D672A" Ref="#PWR?"  Part="1" 
 AR Path="/5BBBA893/5C6D672A" Ref="#PWR?"  Part="1" 
 AR Path="/5B81CA18/5C6D672A" Ref="#PWR0191"  Part="1" 
-F 0 "#PWR0191" H 850 5350 50  0001 C CNN
-F 1 "GND" H 855 5427 50  0000 C CNN
-F 2 "" H 850 5600 50  0001 C CNN
-F 3 "" H 850 5600 50  0001 C CNN
-	1    850  5600
+F 0 "#PWR0191" H 850 5575 50  0001 C CNN
+F 1 "GND" H 855 5652 50  0000 C CNN
+F 2 "" H 850 5825 50  0001 C CNN
+F 3 "" H 850 5825 50  0001 C CNN
+	1    850  5825
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	950  5500 950  5550
+	950  5725 950  5775
 Wire Wire Line
-	950  5550 850  5550
+	950  5775 850  5775
 Wire Wire Line
-	850  5550 850  5500
+	850  5775 850  5725
 Wire Wire Line
-	850  5550 850  5600
-Connection ~ 850  5550
+	850  5775 850  5825
+Connection ~ 850  5775
 Text GLabel 2700 5100 0    50   Input ~ 0
 D-
 Text GLabel 2700 5200 0    50   Input ~ 0
@@ -892,87 +854,53 @@ Wire Wire Line
 	2700 5100 2850 5100
 Wire Wire Line
 	2700 5200 2850 5200
-Wire Wire Line
-	9650 1875 9500 1875
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
-U 1 1 5C74C612
-P 9500 2100
-AR Path="/5B81CA77/5C74C612" Ref="#PWR?"  Part="1" 
-AR Path="/5B81CABC/5C74C612" Ref="#PWR?"  Part="1" 
-AR Path="/5BAA6E9F/5C74C612" Ref="#PWR?"  Part="1" 
-AR Path="/5BBA0EB5/5C74C612" Ref="#PWR?"  Part="1" 
-AR Path="/5BBBA893/5C74C612" Ref="#PWR?"  Part="1" 
-AR Path="/5B81CA18/5C74C612" Ref="#PWR0192"  Part="1" 
-F 0 "#PWR0192" H 9500 1850 50  0001 C CNN
-F 1 "GND" H 9505 1927 50  0000 C CNN
-F 2 "" H 9500 2100 50  0001 C CNN
-F 3 "" H 9500 2100 50  0001 C CNN
-	1    9500 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9650 1775 9500 1775
-Wire Wire Line
-	9500 1775 9500 1675
-$Comp
-L Voron_Klipper_Board-rescue:+3.3V-MZBOT #PWR06
+L MZBOT:+3.3V #PWR06
 U 1 1 5C759E3F
-P 9500 1675
-F 0 "#PWR06" H 9500 1525 50  0001 C CNN
-F 1 "+3.3V" H 9515 1848 50  0000 C CNN
-F 2 "" H 9500 1675 50  0001 C CNN
-F 3 "" H 9500 1675 50  0001 C CNN
-	1    9500 1675
+P 9500 1075
+F 0 "#PWR06" H 9500 925 50  0001 C CNN
+F 1 "+3.3V" H 9515 1248 50  0000 C CNN
+F 2 "" H 9500 1075 50  0001 C CNN
+F 3 "" H 9500 1075 50  0001 C CNN
+	1    9500 1075
 	1    0    0    -1  
 $EndComp
-Text GLabel 10825 1875 2    50   Input ~ 0
+Text GLabel 10825 1275 2    50   Input ~ 0
 SWCLK
-Text GLabel 10300 1775 2    50   Input ~ 0
+Text GLabel 10250 1075 2    50   Input ~ 0
 SWDIO
 Wire Wire Line
-	10825 1875 10725 1875
-Wire Wire Line
-	10300 1775 10150 1775
-Text GLabel 10300 1975 2    50   Input ~ 0
+	10825 1275 10725 1275
+Text GLabel 10275 1175 2    50   Input ~ 0
 SWO
-Wire Wire Line
-	10300 1975 10150 1975
 Text GLabel 2300 1875 0    50   Input ~ 0
 RESETN
 Wire Wire Line
-	2300 1875 2400 1875
-Wire Wire Line
 	2400 1875 2400 1950
-Connection ~ 2400 1950
-Wire Wire Line
-	2400 1950 1625 1950
-Text GLabel 10250 2175 2    50   Input ~ 0
+Text GLabel 9575 1175 0    50   Input ~ 0
 RESETN
 Wire Wire Line
-	10250 2175 10150 2175
+	10725 1225 10725 1275
+Connection ~ 10725 1275
 Wire Wire Line
-	10725 1825 10725 1875
-Connection ~ 10725 1875
-Wire Wire Line
-	10725 1875 10150 1875
+	10725 1275 10150 1275
 $Comp
-L Voron_Klipper_Board-rescue:+3.3V-MZBOT #PWR0195
+L MZBOT:+3.3V #PWR0195
 U 1 1 5C8020A4
-P 10725 1450
-F 0 "#PWR0195" H 10725 1300 50  0001 C CNN
-F 1 "+3.3V" H 10740 1623 50  0000 C CNN
-F 2 "" H 10725 1450 50  0001 C CNN
-F 3 "" H 10725 1450 50  0001 C CNN
-	1    10725 1450
+P 10725 850
+F 0 "#PWR0195" H 10725 700 50  0001 C CNN
+F 1 "+3.3V" H 10740 1023 50  0000 C CNN
+F 2 "" H 10725 850 50  0001 C CNN
+F 3 "" H 10725 850 50  0001 C CNN
+	1    10725 850 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10725 1450 10725 1525
-Text Notes 9650 2600 0    118  ~ 24
+	10725 850  10725 925 
+Text Notes 9675 1650 0    118  ~ 24
 DEBUG\n
 $Comp
-L Voron_Klipper_Board-rescue:SPIFLASH_SOIC8-MZBOT U22
+L MZBOT:SPIFLASH_SOIC8 U22
 U 1 1 5C85B7A6
 P 9350 4050
 F 0 "U22" H 9350 4636 59  0000 C CNN
@@ -991,7 +919,7 @@ Wire Wire Line
 Wire Wire Line
 	10050 4250 10050 4400
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5C86A882
 P 10050 4400
 AR Path="/5B81CA77/5C86A882" Ref="#PWR?"  Part="1" 
@@ -1032,7 +960,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 3750 8750 3750
 $Comp
-L Voron_Klipper_Board-rescue:+3.3V-MZBOT #PWR05
+L MZBOT:+3.3V #PWR05
 U 1 1 5C9A2BD3
 P 8050 3550
 F 0 "#PWR05" H 8050 3400 50  0001 C CNN
@@ -1050,7 +978,7 @@ Connection ~ 8050 4050
 Wire Wire Line
 	8050 4050 8750 4050
 $Comp
-L Voron_Klipper_Board-rescue:+3.3V-MZBOT #PWR0194
+L MZBOT:+3.3V #PWR0194
 U 1 1 5CA3DCCD
 P 10075 3650
 F 0 "#PWR0194" H 10075 3500 50  0001 C CNN
@@ -1072,8 +1000,8 @@ Text Notes 6475 5325 0    39   ~ 0
 TCC(4.0)(0.2)
 Text Notes 6475 5425 0    39   ~ 0
 TCC(4.1)(0.3)
-Text Notes 6800 5525 0    39   ~ 0
-TCC(3.0)(0.4)
+Text Notes 6800 3175 0    39   ~ 0
+TCC(3.0)(0.4) {Still Valid?}
 Text GLabel 8475 950  2    39   Input ~ 0
 PD_TX_RRFGD_BTN_ENC
 Text GLabel 7700 950  0    39   Input ~ 0
@@ -1082,37 +1010,16 @@ Text GLabel 8475 5600 0    39   Input ~ 0
 PD_RX_RRFGD_BUZ
 Text GLabel 8475 5700 0    39   Input ~ 0
 PD_TX_RRFGD_BTN_ENC
-Text GLabel 6250 6100 2    39   Input ~ 0
+Text GLabel 6250 2150 2    39   Input ~ 0
 ENDSTOP_Y
-Text GLabel 6250 1350 2    39   Input ~ 0
+Text GLabel 6250 1550 2    39   Input ~ 0
 DIAG_E1
-Text GLabel 6250 1450 2    39   Input ~ 0
-SPI_CS_E1
 Text Notes 6550 1975 0    50   ~ 0
 TCC(0.0)(1.4)
-Text GLabel 2725 4400 0    39   Input ~ 0
+Text GLabel 6250 2550 2    39   Input ~ 0
 STEP_Z1
 $Comp
-L Voron_Klipper_Board-rescue:CONN_02X05-MZBOT J?
-U 1 1 5C72422B
-P 9900 1975
-AR Path="/5BBBA893/5C72422B" Ref="J?"  Part="1" 
-AR Path="/5B81CA18/5C72422B" Ref="J35"  Part="1" 
-F 0 "J35" H 9900 2275 50  0000 C CNN
-F 1 "CONN_02X05" H 9900 1675 50  0000 C CNN
-F 2 "MZBOT:PinHeader_2x05_P1.27mm_Vertical_SMD" H 9900 1975 50  0001 C CNN
-F 3 "http://cnctech.us/pdfs/3221-XX-0300-00.pdf" H 9900 1975 50  0001 C CNN
-F 4 "CNC Tech" H 9900 1975 50  0001 C CNN "MFG"
-F 5 "3220-10-0300-00" H 9900 1975 50  0001 C CNN "MFG PN"
-F 6 "1175-1629-ND" H 9900 1975 50  0001 C CNN "Digikey P/N"
-F 7 "0.74" H 9900 1975 50  0001 C CNN "Digikey Price"
-	1    9900 1975
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9500 1875 9500 2100
-$Comp
-L Voron_Klipper_Board-rescue:CONN_02X04-MZBOT J36
+L MZBOT:CONN_02X04 J36
 U 1 1 5BCE55D1
 P 10250 5575
 F 0 "J36" H 10250 5942 50  0000 C CNN
@@ -1127,7 +1034,7 @@ F 7 "0.54" H 10250 5575 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:+5V-MZBOT #PWR0197
+L MZBOT:+5V #PWR0197
 U 1 1 5BCE5736
 P 10600 5350
 AR Path="/5B81CA18/5BCE5736" Ref="#PWR0197"  Part="1" 
@@ -1140,7 +1047,7 @@ F 3 "" H 10600 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:+3.3V-MZBOT #PWR092
+L MZBOT:+3.3V #PWR092
 U 1 1 5BCE57B9
 P 9900 5350
 F 0 "#PWR092" H 9900 5200 50  0001 C CNN
@@ -1183,7 +1090,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 5625 9900 5625
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5BD88158
 P 10600 5800
 AR Path="/5B81CA77/5BD88158" Ref="#PWR?"  Part="1" 
@@ -1200,78 +1107,78 @@ F 3 "" H 10600 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:Ferrite_0805-MZBOT L2
+L MZBOT:Ferrite_0805 L2
 U 1 1 5C093939
-P 1450 4900
-F 0 "L2" V 1635 4900 50  0000 C CNN
-F 1 "Ferrite_0805" V 1544 4900 50  0000 C CNN
-F 2 "MZBOT:L_0805_2012Metric" H 1450 4900 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 1450 4900 50  0001 C CNN
-F 4 "1/8W" V 1450 4900 50  0001 C CNN "Power"
-F 5 "~" V 1450 4900 50  0001 C CNN "Tolerance"
-F 6 "0805" V 1450 4900 50  0001 C CNN "Package"
-F 7 "Vishay Dale" V 1450 4900 50  0001 C CNN "MFG"
-F 8 "CRCW08050000Z0EA" V 1450 4900 50  0001 C CNN "MFG PN"
-F 9 "541-0.0ACT-ND" V 1450 4900 50  0001 C CNN "Digikey P/N"
-F 10 "0.10" V 1450 4900 50  0001 C CNN "Digikey Price"
-	1    1450 4900
+P 1450 5125
+F 0 "L2" V 1635 5125 50  0000 C CNN
+F 1 "Ferrite_0805" V 1544 5125 50  0000 C CNN
+F 2 "MZBOT:L_0805_2012Metric" H 1450 5125 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 1450 5125 50  0001 C CNN
+F 4 "1/8W" V 1450 5125 50  0001 C CNN "Power"
+F 5 "~" V 1450 5125 50  0001 C CNN "Tolerance"
+F 6 "0805" V 1450 5125 50  0001 C CNN "Package"
+F 7 "Vishay Dale" V 1450 5125 50  0001 C CNN "MFG"
+F 8 "CRCW08050000Z0EA" V 1450 5125 50  0001 C CNN "MFG PN"
+F 9 "541-0.0ACT-ND" V 1450 5125 50  0001 C CNN "Digikey P/N"
+F 10 "0.10" V 1450 5125 50  0001 C CNN "Digikey Price"
+	1    1450 5125
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1750 4950 1750 4900
+	1750 5175 1750 5125
 Wire Wire Line
-	1750 4900 1550 4900
+	1750 5125 1550 5125
 Wire Wire Line
-	1950 4900 1750 4900
+	1950 5125 1750 5125
 Wire Wire Line
-	1950 4900 1950 4950
-Connection ~ 1750 4900
+	1950 5125 1950 5175
+Connection ~ 1750 5125
 Wire Wire Line
-	1950 4900 1950 4800
-Connection ~ 1950 4900
+	1950 5125 1950 5025
+Connection ~ 1950 5125
 Wire Wire Line
-	1350 4900 1250 4900
+	1350 5125 1250 5125
 Wire Wire Line
-	1950 5250 1950 5325
+	1950 5475 1950 5550
 Wire Wire Line
-	1950 5325 1750 5325
+	1950 5550 1750 5550
 Wire Wire Line
-	1750 5325 1750 5250
+	1750 5550 1750 5475
 Wire Wire Line
-	1750 5325 1750 5375
-Connection ~ 1750 5325
+	1750 5550 1750 5600
+Connection ~ 1750 5550
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5C0FDCFA
-P 1750 5375
+P 1750 5600
 AR Path="/5B81CA77/5C0FDCFA" Ref="#PWR?"  Part="1" 
 AR Path="/5B81CABC/5C0FDCFA" Ref="#PWR?"  Part="1" 
 AR Path="/5BAA6E9F/5C0FDCFA" Ref="#PWR?"  Part="1" 
 AR Path="/5BBA0EB5/5C0FDCFA" Ref="#PWR?"  Part="1" 
 AR Path="/5BBBA893/5C0FDCFA" Ref="#PWR?"  Part="1" 
 AR Path="/5B81CA18/5C0FDCFA" Ref="#PWR0199"  Part="1" 
-F 0 "#PWR0199" H 1750 5125 50  0001 C CNN
-F 1 "GND" H 1755 5202 50  0000 C CNN
-F 2 "" H 1750 5375 50  0001 C CNN
-F 3 "" H 1750 5375 50  0001 C CNN
-	1    1750 5375
+F 0 "#PWR0199" H 1750 5350 50  0001 C CNN
+F 1 "GND" H 1755 5427 50  0000 C CNN
+F 2 "" H 1750 5600 50  0001 C CNN
+F 3 "" H 1750 5600 50  0001 C CNN
+	1    1750 5600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:VBUS-MZBOT #PWR0200
+L MZBOT:VBUS #PWR0200
 U 1 1 5C110075
-P 1950 4800
-F 0 "#PWR0200" H 1950 4650 50  0001 C CNN
-F 1 "VBUS" H 1965 4973 50  0000 C CNN
-F 2 "" H 1950 4800 50  0000 C CNN
-F 3 "" H 1950 4800 50  0000 C CNN
-	1    1950 4800
+P 1950 5025
+F 0 "#PWR0200" H 1950 4875 50  0001 C CNN
+F 1 "VBUS" H 1965 5198 50  0000 C CNN
+F 2 "" H 1950 5025 50  0000 C CNN
+F 3 "" H 1950 5025 50  0000 C CNN
+	1    1950 5025
 	1    0    0    -1  
 $EndComp
 Text Notes 9500 6175 0    118  ~ 24
 I2C EXPANSION\n
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 5BC13A1D
 P 1125 1350
 AR Path="/5B81CA77/5BC13A1D" Ref="C?"  Part="1" 
@@ -1291,7 +1198,7 @@ F 10 "0.10" V 1125 1350 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 5BC13AAF
 P 1325 1350
 AR Path="/5B81CA77/5BC13AAF" Ref="C?"  Part="1" 
@@ -1311,7 +1218,7 @@ F 10 "0.10" V 1325 1350 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 5BC13B0F
 P 1525 1350
 AR Path="/5B81CA77/5BC13B0F" Ref="C?"  Part="1" 
@@ -1331,7 +1238,7 @@ F 10 "0.10" V 1525 1350 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 5BC13B71
 P 1725 1350
 AR Path="/5B81CA77/5BC13B71" Ref="C?"  Part="1" 
@@ -1351,7 +1258,7 @@ F 10 "0.10" V 1725 1350 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 5BC13BD5
 P 1925 1350
 AR Path="/5B81CA77/5BC13BD5" Ref="C?"  Part="1" 
@@ -1371,7 +1278,7 @@ F 10 "0.10" V 1925 1350 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 5BC13C39
 P 2125 1350
 AR Path="/5B81CA77/5BC13C39" Ref="C?"  Part="1" 
@@ -1391,7 +1298,7 @@ F 10 "0.10" V 2125 1350 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 5BC13D27
 P 2325 1350
 AR Path="/5B81CA77/5BC13D27" Ref="C?"  Part="1" 
@@ -1411,109 +1318,109 @@ F 10 "0.10" V 2325 1350 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 5BC7E934
-P 2225 2625
+P 1775 2625
 AR Path="/5B81CA77/5BC7E934" Ref="C?"  Part="1" 
 AR Path="/5B81CA18/5BC7E934" Ref="C125"  Part="1" 
-F 0 "C125" V 2175 2525 39  0000 C CNN
-F 1 "100nF" V 2175 2775 39  0000 C CNN
-F 2 "MZBOT:C_0603" H 2255 2365 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 2225 2625 50  0001 C CNN
-F 4 "50V" V 2250 2700 16  0000 C CNN "Voltage"
-F 5 "X7R" V 2275 2550 16  0000 C CNN "Dielectric"
-F 6 "0603" V 2250 2550 16  0000 C CNN "Package"
-F 7 "Yageo" V 2225 2625 50  0001 C CNN "MFG"
-F 8 "CC0603KRX7R9BB104" V 2225 2625 50  0001 C CNN "MFG PN"
-F 9 "311-1344-1-ND" V 2225 2625 50  0001 C CNN "Digikey P/N"
-F 10 "0.10" V 2225 2625 50  0001 C CNN "Digikey Price"
-	1    2225 2625
+F 0 "C125" V 1725 2525 39  0000 C CNN
+F 1 "100nF" V 1725 2775 39  0000 C CNN
+F 2 "MZBOT:C_0603" H 1805 2365 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 1775 2625 50  0001 C CNN
+F 4 "50V" V 1800 2700 16  0000 C CNN "Voltage"
+F 5 "X7R" V 1825 2550 16  0000 C CNN "Dielectric"
+F 6 "0603" V 1800 2550 16  0000 C CNN "Package"
+F 7 "Yageo" V 1775 2625 50  0001 C CNN "MFG"
+F 8 "CC0603KRX7R9BB104" V 1775 2625 50  0001 C CNN "MFG PN"
+F 9 "311-1344-1-ND" V 1775 2625 50  0001 C CNN "Digikey P/N"
+F 10 "0.10" V 1775 2625 50  0001 C CNN "Digikey Price"
+	1    1775 2625
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 5BCC5B3C
-P 1825 2625
+P 1375 2625
 AR Path="/5B81CA77/5BCC5B3C" Ref="C?"  Part="1" 
 AR Path="/5B81CA18/5BCC5B3C" Ref="C121"  Part="1" 
-F 0 "C121" V 1775 2525 39  0000 C CNN
-F 1 "10uF" V 1775 2775 39  0000 C CNN
-F 2 "MZBOT:C_0805" H 1855 2365 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/27/CL21A106KOQNNWE.pdf" H 1825 2625 50  0001 C CNN
-F 4 "16V" V 1850 2700 16  0000 C CNN "Voltage"
-F 5 "X5R" V 1875 2550 16  0000 C CNN "Dielectric"
-F 6 "0805" V 1850 2550 16  0000 C CNN "Package"
-F 7 "Samsung Electro-Mechanics" V 1825 2625 50  0001 C CNN "MFG"
-F 8 "CL21A106KOQNNWE" V 1825 2625 50  0001 C CNN "MFG PN"
-F 9 "1276-2894-1-ND" V 1825 2625 50  0001 C CNN "Digikey P/N"
-F 10 "0.21" V 1825 2625 50  0001 C CNN "Digikey Price"
-	1    1825 2625
+F 0 "C121" V 1325 2525 39  0000 C CNN
+F 1 "10uF" V 1325 2775 39  0000 C CNN
+F 2 "MZBOT:C_0805" H 1405 2365 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/27/CL21A106KOQNNWE.pdf" H 1375 2625 50  0001 C CNN
+F 4 "16V" V 1400 2700 16  0000 C CNN "Voltage"
+F 5 "X5R" V 1425 2550 16  0000 C CNN "Dielectric"
+F 6 "0805" V 1400 2550 16  0000 C CNN "Package"
+F 7 "Samsung Electro-Mechanics" V 1375 2625 50  0001 C CNN "MFG"
+F 8 "CL21A106KOQNNWE" V 1375 2625 50  0001 C CNN "MFG PN"
+F 9 "1276-2894-1-ND" V 1375 2625 50  0001 C CNN "Digikey P/N"
+F 10 "0.21" V 1375 2625 50  0001 C CNN "Digikey Price"
+	1    1375 2625
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 5BCC6D1E
-P 2025 2625
+P 1575 2625
 AR Path="/5B81CA77/5BCC6D1E" Ref="C?"  Part="1" 
 AR Path="/5B81CA18/5BCC6D1E" Ref="C123"  Part="1" 
-F 0 "C123" V 1975 2525 39  0000 C CNN
-F 1 "1uF" V 1975 2775 39  0000 C CNN
-F 2 "MZBOT:C_0603" H 2055 2365 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B105KP8NNNC.pdf" H 2025 2625 50  0001 C CNN
-F 4 "10V" V 2050 2700 16  0000 C CNN "Voltage"
-F 5 "X7R" V 2075 2550 16  0000 C CNN "Dielectric"
-F 6 "0603" V 2050 2550 16  0000 C CNN "Package"
-F 7 "Samsung Electro-Mechanics" V 2025 2625 50  0001 C CNN "MFG"
-F 8 "CL10B105KP8NNNC" V 2025 2625 50  0001 C CNN "MFG PN"
-F 9 "1276-1946-1-ND" V 2025 2625 50  0001 C CNN "Digikey P/N"
-F 10 "0.10" V 2025 2625 50  0001 C CNN "Digikey Price"
-	1    2025 2625
+F 0 "C123" V 1525 2525 39  0000 C CNN
+F 1 "1uF" V 1525 2775 39  0000 C CNN
+F 2 "MZBOT:C_0603" H 1605 2365 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B105KP8NNNC.pdf" H 1575 2625 50  0001 C CNN
+F 4 "10V" V 1600 2700 16  0000 C CNN "Voltage"
+F 5 "X7R" V 1625 2550 16  0000 C CNN "Dielectric"
+F 6 "0603" V 1600 2550 16  0000 C CNN "Package"
+F 7 "Samsung Electro-Mechanics" V 1575 2625 50  0001 C CNN "MFG"
+F 8 "CL10B105KP8NNNC" V 1575 2625 50  0001 C CNN "MFG PN"
+F 9 "1276-1946-1-ND" V 1575 2625 50  0001 C CNN "Digikey P/N"
+F 10 "0.10" V 1575 2625 50  0001 C CNN "Digikey Price"
+	1    1575 2625
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 5BCC7EFE
-P 1750 5100
+P 1750 5325
 AR Path="/5B81CA77/5BCC7EFE" Ref="C?"  Part="1" 
 AR Path="/5B81CA18/5BCC7EFE" Ref="C127"  Part="1" 
-F 0 "C127" V 1700 5000 39  0000 C CNN
-F 1 "10uF" V 1700 5250 39  0000 C CNN
-F 2 "MZBOT:C_0805" H 1780 4840 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/27/CL21A106KOQNNWE.pdf" H 1750 5100 50  0001 C CNN
-F 4 "16V" V 1775 5175 16  0000 C CNN "Voltage"
-F 5 "X5R" V 1800 5025 16  0000 C CNN "Dielectric"
-F 6 "0805" V 1775 5025 16  0000 C CNN "Package"
-F 7 "Samsung Electro-Mechanics" V 1750 5100 50  0001 C CNN "MFG"
-F 8 "CL21A106KOQNNWE" V 1750 5100 50  0001 C CNN "MFG PN"
-F 9 "1276-2894-1-ND" V 1750 5100 50  0001 C CNN "Digikey P/N"
-F 10 "0.21" V 1750 5100 50  0001 C CNN "Digikey Price"
-	1    1750 5100
+F 0 "C127" V 1700 5225 39  0000 C CNN
+F 1 "10uF" V 1700 5475 39  0000 C CNN
+F 2 "MZBOT:C_0805" H 1780 5065 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/27/CL21A106KOQNNWE.pdf" H 1750 5325 50  0001 C CNN
+F 4 "16V" V 1775 5400 16  0000 C CNN "Voltage"
+F 5 "X5R" V 1800 5250 16  0000 C CNN "Dielectric"
+F 6 "0805" V 1775 5250 16  0000 C CNN "Package"
+F 7 "Samsung Electro-Mechanics" V 1750 5325 50  0001 C CNN "MFG"
+F 8 "CL21A106KOQNNWE" V 1750 5325 50  0001 C CNN "MFG PN"
+F 9 "1276-2894-1-ND" V 1750 5325 50  0001 C CNN "Digikey P/N"
+F 10 "0.21" V 1750 5325 50  0001 C CNN "Digikey Price"
+	1    1750 5325
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 5BCC83E6
-P 1950 5100
+P 1950 5325
 AR Path="/5B81CA77/5BCC83E6" Ref="C?"  Part="1" 
 AR Path="/5B81CA18/5BCC83E6" Ref="C128"  Part="1" 
-F 0 "C128" V 1900 5000 39  0000 C CNN
-F 1 "1uF" V 1900 5250 39  0000 C CNN
-F 2 "MZBOT:C_0603" H 1980 4840 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B105KP8NNNC.pdf" H 1950 5100 50  0001 C CNN
-F 4 "10V" V 1975 5175 16  0000 C CNN "Voltage"
-F 5 "X7R" V 2000 5025 16  0000 C CNN "Dielectric"
-F 6 "0603" V 1975 5025 16  0000 C CNN "Package"
-F 7 "Samsung Electro-Mechanics" V 1950 5100 50  0001 C CNN "MFG"
-F 8 "CL10B105KP8NNNC" V 1950 5100 50  0001 C CNN "MFG PN"
-F 9 "1276-1946-1-ND" V 1950 5100 50  0001 C CNN "Digikey P/N"
-F 10 "0.10" V 1950 5100 50  0001 C CNN "Digikey Price"
-	1    1950 5100
+F 0 "C128" V 1900 5225 39  0000 C CNN
+F 1 "1uF" V 1900 5475 39  0000 C CNN
+F 2 "MZBOT:C_0603" H 1980 5065 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B105KP8NNNC.pdf" H 1950 5325 50  0001 C CNN
+F 4 "10V" V 1975 5400 16  0000 C CNN "Voltage"
+F 5 "X7R" V 2000 5250 16  0000 C CNN "Dielectric"
+F 6 "0603" V 1975 5250 16  0000 C CNN "Package"
+F 7 "Samsung Electro-Mechanics" V 1950 5325 50  0001 C CNN "MFG"
+F 8 "CL10B105KP8NNNC" V 1950 5325 50  0001 C CNN "MFG PN"
+F 9 "1276-1946-1-ND" V 1950 5325 50  0001 C CNN "Digikey P/N"
+F 10 "0.10" V 1950 5325 50  0001 C CNN "Digikey Price"
+	1    1950 5325
 	-1   0    0    1   
 $EndComp
-Text Notes 1375 5025 0    24   ~ 0
+Text Notes 1375 5250 0    24   ~ 0
 ZERO OHM\nFOR TESTING
 $Comp
-L Voron_Klipper_Board-rescue:CONN_02X05-MZBOT J?
+L MZBOT:CONN_02X05 J?
 U 1 1 5BCC96E9
 P 8125 1975
 AR Path="/5BBBA893/5BCC96E9" Ref="J?"  Part="1" 
@@ -1530,27 +1437,27 @@ F 7 "0.29" H 8125 1975 50  0001 C CNN "Digikey Price"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:R_0805-MZBOT R?
+L MZBOT:R_0805 R?
 U 1 1 5BCC9F0D
-P 10725 1675
+P 10725 1075
 AR Path="/5B81CA77/5BCC9F0D" Ref="R?"  Part="1" 
 AR Path="/5B81CA18/5BCC9F0D" Ref="R93"  Part="1" 
-F 0 "R93" H 10775 1725 50  0000 L CNN
-F 1 "10.0K" V 10725 1625 28  0000 L CNN
-F 2 "MZBOT:R_0603" V 10595 1665 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" V 10805 1675 50  0001 C CNN
-F 4 "1/8W" H 10775 1625 16  0000 L CNN "Power"
-F 5 "1%" H 10775 1650 16  0000 L CNN "Tolerance"
-F 6 "0603" H 10775 1675 16  0000 L CNN "Package"
-F 7 "Stackpole Electronics Inc." H 10725 1675 50  0001 C CNN "MFG"
-F 8 "RNCP0603FTD10K0" H 10725 1675 50  0001 C CNN "MFG PN"
-F 9 "RNCP0603FTD10K0CT-ND" H 10725 1675 50  0001 C CNN "Digikey P/N"
-F 10 "0.1" H 10725 1675 50  0001 C CNN "Digikey Price"
-	1    10725 1675
+F 0 "R93" H 10775 1125 50  0000 L CNN
+F 1 "10.0K" V 10725 1025 28  0000 L CNN
+F 2 "MZBOT:R_0603" V 10595 1065 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" V 10805 1075 50  0001 C CNN
+F 4 "1/8W" H 10775 1025 16  0000 L CNN "Power"
+F 5 "1%" H 10775 1050 16  0000 L CNN "Tolerance"
+F 6 "0603" H 10775 1075 16  0000 L CNN "Package"
+F 7 "Stackpole Electronics Inc." H 10725 1075 50  0001 C CNN "MFG"
+F 8 "RNCP0603FTD10K0" H 10725 1075 50  0001 C CNN "MFG PN"
+F 9 "RNCP0603FTD10K0CT-ND" H 10725 1075 50  0001 C CNN "Digikey P/N"
+F 10 "0.1" H 10725 1075 50  0001 C CNN "Digikey Price"
+	1    10725 1075
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:R_0805-MZBOT R?
+L MZBOT:R_0805 R?
 U 1 1 5BCCA3A5
 P 8050 3775
 AR Path="/5B81CA77/5BCCA3A5" Ref="R?"  Part="1" 
@@ -1569,7 +1476,7 @@ F 10 "0.1" H 8050 3775 50  0001 C CNN "Digikey Price"
 	1    8050 3775
 	1    0    0    -1  
 $EndComp
-Text GLabel 6250 6600 2    50   Input ~ 0
+Text GLabel 6250 6000 2    50   Input ~ 0
 RRFGD_SDDET
 Text GLabel 7700 2075 0    39   Input ~ 0
 RRFGD_SDDET
@@ -1594,79 +1501,79 @@ SPI_SDO
 Text GLabel 8475 2075 2    39   Input ~ 0
 RESETN
 $Comp
-L Voron_Klipper_Board-rescue:SW_Push-MZBOT SW1
+L MZBOT:SW_Push SW1
 U 1 1 5BD2911F
-P 1425 2625
-F 0 "SW1" V 1600 2825 50  0000 R CNN
-F 1 "SW_Push" V 1380 2577 50  0001 R CNN
-F 2 "MZBOT:SW_SPST_B3S-1000" H 1425 2825 50  0001 C CNN
-F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3s.pdf" H 1425 2825 50  0001 C CNN
-F 4 "Omron Electronics Inc-EMC Div" V 1425 2625 50  0001 C CNN "MFG"
-F 5 "B3S-1000P" V 1425 2625 50  0001 C CNN "MFG PN"
-F 6 "SW836CT-ND" V 1425 2625 50  0001 C CNN "Digikey P/N"
-F 7 "0.82" V 1425 2625 50  0001 C CNN "Digikey Price"
-	1    1425 2625
+P 975 2625
+F 0 "SW1" V 1150 2825 50  0000 R CNN
+F 1 "SW_Push" V 930 2577 50  0001 R CNN
+F 2 "MZBOT:SW_SPST_B3S-1000" H 975 2825 50  0001 C CNN
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3s.pdf" H 975 2825 50  0001 C CNN
+F 4 "Omron Electronics Inc-EMC Div" V 975 2625 50  0001 C CNN "MFG"
+F 5 "B3S-1000P" V 975 2625 50  0001 C CNN "MFG PN"
+F 6 "SW836CT-ND" V 975 2625 50  0001 C CNN "Digikey P/N"
+F 7 "0.82" V 975 2625 50  0001 C CNN "Digikey Price"
+	1    975  2625
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1425 1950 1625 1950
-Connection ~ 1625 1950
+	975  1950 1175 1950
+Connection ~ 1175 1950
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 5BC7E6F7
-P 1625 2625
+P 1175 2625
 AR Path="/5B81CA77/5BC7E6F7" Ref="C?"  Part="1" 
 AR Path="/5B81CA18/5BC7E6F7" Ref="C119"  Part="1" 
-F 0 "C119" V 1575 2525 39  0000 C CNN
-F 1 "100nF" V 1575 2775 39  0000 C CNN
-F 2 "MZBOT:C_0603" H 1655 2365 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 1625 2625 50  0001 C CNN
-F 4 "50V" V 1650 2700 16  0000 C CNN "Voltage"
-F 5 "X7R" V 1675 2550 16  0000 C CNN "Dielectric"
-F 6 "0603" V 1650 2550 16  0000 C CNN "Package"
-F 7 "Yageo" V 1625 2625 50  0001 C CNN "MFG"
-F 8 "CC0603KRX7R9BB104" V 1625 2625 50  0001 C CNN "MFG PN"
-F 9 "311-1344-1-ND" V 1625 2625 50  0001 C CNN "Digikey P/N"
-F 10 "0.10" V 1625 2625 50  0001 C CNN "Digikey Price"
-	1    1625 2625
+F 0 "C119" V 1125 2525 39  0000 C CNN
+F 1 "100nF" V 1125 2775 39  0000 C CNN
+F 2 "MZBOT:C_0603" H 1205 2365 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 1175 2625 50  0001 C CNN
+F 4 "50V" V 1200 2700 16  0000 C CNN "Voltage"
+F 5 "X7R" V 1225 2550 16  0000 C CNN "Dielectric"
+F 6 "0603" V 1200 2550 16  0000 C CNN "Package"
+F 7 "Yageo" V 1175 2625 50  0001 C CNN "MFG"
+F 8 "CC0603KRX7R9BB104" V 1175 2625 50  0001 C CNN "MFG PN"
+F 9 "311-1344-1-ND" V 1175 2625 50  0001 C CNN "Digikey P/N"
+F 10 "0.10" V 1175 2625 50  0001 C CNN "Digikey Price"
+	1    1175 2625
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1425 2825 1425 2875
-Connection ~ 1425 2875
+	975  2825 975  2875
+Connection ~ 975  2875
 Wire Wire Line
-	1625 2775 1625 2875
+	1175 2775 1175 2875
 Wire Wire Line
-	1425 2875 1625 2875
-Connection ~ 1625 2875
+	975  2875 1175 2875
+Connection ~ 1175 2875
 Wire Wire Line
-	1625 2875 1825 2875
+	1175 2875 1375 2875
 $Comp
-L Voron_Klipper_Board-rescue:R_0805-MZBOT R?
+L MZBOT:R_0805 R?
 U 1 1 5BDF2952
-P 1425 2200
+P 975 2200
 AR Path="/5B81CA77/5BDF2952" Ref="R?"  Part="1" 
 AR Path="/5B81CA18/5BDF2952" Ref="R97"  Part="1" 
-F 0 "R97" H 1475 2250 39  0000 L CNN
-F 1 "330" V 1425 2150 28  0000 L CNN
-F 2 "MZBOT:R_0603" V 1295 2190 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" V 1505 2200 50  0001 C CNN
-F 4 "1/10W" H 1475 2150 16  0000 L CNN "Power"
-F 5 "1%" H 1475 2175 16  0000 L CNN "Tolerance"
-F 6 "0603" H 1475 2200 16  0000 L CNN "Package"
-F 7 "Stackpole Electronics Inc." H 1425 2200 50  0001 C CNN "MFG"
-F 8 "RMCF0603JT330R" H 1425 2200 50  0001 C CNN "MFG PN"
-F 9 "RMCF0603JT330RCT-ND" H 1425 2200 50  0001 C CNN "Digikey P/N"
-F 10 "0.1" H 1425 2200 50  0001 C CNN "Digikey Price"
-	1    1425 2200
+F 0 "R97" H 1025 2250 39  0000 L CNN
+F 1 "330" V 975 2150 28  0000 L CNN
+F 2 "MZBOT:R_0603" V 845 2190 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" V 1055 2200 50  0001 C CNN
+F 4 "1/10W" H 1025 2150 16  0000 L CNN "Power"
+F 5 "1%" H 1025 2175 16  0000 L CNN "Tolerance"
+F 6 "0603" H 1025 2200 16  0000 L CNN "Package"
+F 7 "Stackpole Electronics Inc." H 975 2200 50  0001 C CNN "MFG"
+F 8 "RMCF0603JT330R" H 975 2200 50  0001 C CNN "MFG PN"
+F 9 "RMCF0603JT330RCT-ND" H 975 2200 50  0001 C CNN "Digikey P/N"
+F 10 "0.1" H 975 2200 50  0001 C CNN "Digikey Price"
+	1    975  2200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1425 2050 1425 1950
+	975  2050 975  1950
 Wire Wire Line
-	1425 2350 1425 2425
+	975  2350 975  2425
 $Comp
-L Voron_Klipper_Board-rescue:R_0805-MZBOT R?
+L MZBOT:R_0805 R?
 U 1 1 5E9DA338
 P 10875 4550
 AR Path="/5B81CA77/5E9DA338" Ref="R?"  Part="1" 
@@ -1689,7 +1596,7 @@ F 10 "0.1" H 10875 4550 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:R_0805-MZBOT R?
+L MZBOT:R_0805 R?
 U 1 1 5EA159C6
 P 10600 4550
 AR Path="/5B81CA77/5EA159C6" Ref="R?"  Part="1" 
@@ -1733,7 +1640,7 @@ Wire Wire Line
 	10600 4350 10600 4300
 Connection ~ 10600 4350
 $Comp
-L Voron_Klipper_Board-rescue:+3.3V-MZBOT #PWR014
+L MZBOT:+3.3V #PWR014
 U 1 1 5EA66BCE
 P 10600 4300
 F 0 "#PWR014" H 10600 4150 50  0001 C CNN
@@ -1747,4 +1654,97 @@ Text Notes 7825 750  0    50   ~ 0
 Mirrored J1,J2\n
 Text Notes 10275 5025 0    50   ~ 0
 Added I2C pullups
+Wire Wire Line
+	2700 4300 2850 4300
+Wire Wire Line
+	2700 4400 2850 4400
+Wire Wire Line
+	2700 4500 2850 4500
+Wire Wire Line
+	2700 4600 2850 4600
+Wire Wire Line
+	2700 4700 2850 4700
+Text Notes 2350 4514 2    39   ~ 0
+TCC1.2
+Text GLabel 2700 3900 0    39   Input ~ 0
+HOTEND1
+Text GLabel 6250 2650 2    39   Input ~ 0
+DIAG_Z1
+Text GLabel 6250 5600 2    50   Input ~ 0
+TMC_UART1
+$Comp
+L MZBOT:CONN_02X03 J35
+U 1 1 62E5B92E
+P 9850 1175
+F 0 "J35" H 9900 1492 50  0000 C CNN
+F 1 "CONN_02X03" H 9900 1401 50  0000 C CNN
+F 2 "MZBOT:PinHeader_2x03_P2.54mm_Vertical" H 9850 1175 50  0001 C CNN
+F 3 "~" H 9850 1175 50  0001 C CNN
+	1    9850 1175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 1075 9650 1075
+$Comp
+L MZBOT:GND #PWR?
+U 1 1 62E72D35
+P 9525 1275
+AR Path="/5B81CA77/62E72D35" Ref="#PWR?"  Part="1" 
+AR Path="/5B81CABC/62E72D35" Ref="#PWR?"  Part="1" 
+AR Path="/5BAA6E9F/62E72D35" Ref="#PWR?"  Part="1" 
+AR Path="/5BBA0EB5/62E72D35" Ref="#PWR?"  Part="1" 
+AR Path="/5BBBA893/62E72D35" Ref="#PWR?"  Part="1" 
+AR Path="/5B81CA18/62E72D35" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 9525 1025 50  0001 C CNN
+F 1 "GND" H 9530 1102 50  0000 C CNN
+F 2 "" H 9525 1275 50  0001 C CNN
+F 3 "" H 9525 1275 50  0001 C CNN
+	1    9525 1275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9525 1275 9650 1275
+Wire Wire Line
+	10150 1075 10250 1075
+Wire Wire Line
+	10150 1175 10275 1175
+Wire Wire Line
+	9575 1175 9650 1175
+Text GLabel 7700 1250 0    39   Input ~ 0
+RRFGD_LCD6
+Text GLabel 8475 1150 2    39   Input ~ 0
+RRFGD_LCD5
+Wire Wire Line
+	8375 1150 8475 1150
+Text GLabel 8475 1250 2    39   Input ~ 0
+RRFGD_LCD7
+Wire Wire Line
+	8475 1250 8375 1250
+Wire Wire Line
+	8375 1350 8975 1350
+Wire Wire Line
+	7700 1250 7875 1250
+Wire Wire Line
+	2275 2400 2850 2400
+Wire Wire Line
+	1375 2150 2850 2150
+Wire Wire Line
+	2300 1875 2400 1875
+Wire Wire Line
+	1175 1950 2400 1950
+Connection ~ 2400 1950
+Text GLabel 8475 2175 2    39   Input ~ 0
+KILL
+Wire Wire Line
+	8475 2175 8375 2175
+Text GLabel 2725 4900 0    39   Input ~ 0
+KILL
+Text GLabel 6250 3150 2    39   Input ~ 0
+RRFGD_LCD5
+Text GLabel 6250 6400 2    39   Input ~ 0
+RRFGD_LCD6
+Text GLabel 6250 6300 2    39   Input ~ 0
+RRFGD_LCD7
+Text GLabel 6250 1250 2    50   Input ~ 0
+TMC_UART0
 $EndSCHEMATC

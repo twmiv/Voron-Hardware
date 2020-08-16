@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 "Thebrakshow"
 $EndDescr
 $Comp
-L Voron_Klipper_Board-rescue:A4403-MZBOT U19
+L MZBOT:A4403 U19
 U 1 1 5BAC747B
 P 7175 2050
 F 0 "U19" H 7175 2667 50  0000 C CNN
@@ -112,7 +112,7 @@ Wire Wire Line
 	6325 2750 6875 2750
 Connection ~ 6875 2750
 $Comp
-L Voron_Klipper_Board-rescue:DB2W40300L-MZBOT D15
+L MZBOT:DB2W40300L D15
 U 1 1 5BAF94C2
 P 5200 1600
 F 0 "D15" H 5225 1500 50  0000 C CNN
@@ -127,7 +127,7 @@ F 7 "0.60" H 5200 1600 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_1210-MZBOT C151
+L MZBOT:C_1210 C151
 U 1 1 5BB0468C
 P 5825 1800
 F 0 "C151" H 5850 1875 39  0000 L CNN
@@ -155,7 +155,7 @@ Connection ~ 6075 1600
 Wire Wire Line
 	6075 1600 6325 1600
 $Comp
-L Voron_Klipper_Board-rescue:R_0805-MZBOT R81
+L MZBOT:R_0805 R81
 U 1 1 5BB32C47
 P 6325 1800
 F 0 "R81" H 6395 1884 50  0000 L CNN
@@ -202,7 +202,7 @@ Wire Wire Line
 	5825 1950 5825 2000
 Connection ~ 5825 2000
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5BBB1A6C
 P 5575 2050
 AR Path="/5B81CA77/5BBB1A6C" Ref="#PWR?"  Part="1" 
@@ -222,7 +222,7 @@ Wire Wire Line
 	6000 2750 6000 2850
 Connection ~ 6000 2750
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5BBB8120
 P 6000 2850
 AR Path="/5B81CA77/5BBB8120" Ref="#PWR?"  Part="1" 
@@ -239,7 +239,7 @@ F 3 "" H 6000 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:Inductor-MZBOT L3
+L MZBOT:Inductor L3
 U 1 1 5BBB8689
 P 8900 1600
 F 0 "L3" H 8900 1803 50  0000 C CNN
@@ -290,7 +290,7 @@ Connection ~ 8650 1600
 Wire Wire Line
 	7775 2500 9675 2500
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5BC5C198
 P 9675 2900
 AR Path="/5B81CA77/5BC5C198" Ref="#PWR?"  Part="1" 
@@ -309,7 +309,7 @@ $EndComp
 Wire Wire Line
 	9675 2900 9675 2850
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5BC62EAE
 P 9175 2050
 AR Path="/5B81CA77/5BC62EAE" Ref="#PWR?"  Part="1" 
@@ -335,7 +335,7 @@ Wire Wire Line
 	9175 2050 9175 2000
 Connection ~ 9175 2000
 $Comp
-L Voron_Klipper_Board-rescue:+12V-MZBOT #PWR?
+L MZBOT:+12V #PWR?
 U 1 1 5BC72865
 P 10450 1550
 AR Path="/5BC72865" Ref="#PWR?"  Part="1" 
@@ -474,7 +474,7 @@ Wire Wire Line
 Wire Wire Line
 	5825 3975 5825 4025
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5BCE350B
 P 5575 4125
 AR Path="/5B81CA77/5BCE350B" Ref="#PWR?"  Part="1" 
@@ -494,7 +494,7 @@ Wire Wire Line
 	6000 4775 6000 4875
 Connection ~ 6000 4775
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5BCE3513
 P 6000 4875
 AR Path="/5B81CA77/5BCE3513" Ref="#PWR?"  Part="1" 
@@ -547,7 +547,7 @@ Connection ~ 8650 3625
 Wire Wire Line
 	7775 4525 9675 4525
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5BCE3567
 P 9675 4925
 AR Path="/5B81CA77/5BCE3567" Ref="#PWR?"  Part="1" 
@@ -566,7 +566,7 @@ $EndComp
 Wire Wire Line
 	9675 4925 9675 4875
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5BCE356E
 P 9175 4075
 AR Path="/5B81CA77/5BCE356E" Ref="#PWR?"  Part="1" 
@@ -592,7 +592,7 @@ Wire Wire Line
 	9175 4075 9175 4025
 Connection ~ 9175 4025
 $Comp
-L Voron_Klipper_Board-rescue:R_1210-MZBOT R83
+L MZBOT:R_1210 R83
 U 1 1 5BD1E5E1
 P 7875 2175
 F 0 "R83" H 7700 2250 39  0000 L CNN
@@ -618,7 +618,7 @@ Wire Wire Line
 	10450 3575 10450 3625
 Connection ~ 10450 3625
 $Comp
-L Voron_Klipper_Board-rescue:+5V-MZBOT #PWR0188
+L MZBOT:+5V #PWR0188
 U 1 1 5BD5A329
 P 10450 3575
 F 0 "#PWR0188" H 10450 3425 50  0001 C CNN
@@ -637,7 +637,7 @@ Wire Wire Line
 Connection ~ 10450 1600
 Connection ~ 10025 1600
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5BEF6A94
 P 4650 6625
 AR Path="/5B81CA77/5BEF6A94" Ref="#PWR?"  Part="1" 
@@ -654,7 +654,7 @@ F 3 "" H 4650 6625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5BEF6B77
 P 5875 6800
 AR Path="/5B81CA77/5BEF6B77" Ref="#PWR?"  Part="1" 
@@ -671,7 +671,7 @@ F 3 "" H 5875 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:+5V-MZBOT #PWR0173
+L MZBOT:+5V #PWR0173
 U 1 1 5BEF6E0A
 P 3950 5475
 F 0 "#PWR0173" H 3950 5325 50  0001 C CNN
@@ -682,7 +682,7 @@ F 3 "" H 3950 5475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:+3.3V-MZBOT #PWR0177
+L MZBOT:+3.3V #PWR0177
 U 1 1 5BEF707E
 P 5875 6175
 F 0 "#PWR0177" H 5875 6025 50  0001 C CNN
@@ -693,7 +693,7 @@ F 3 "" H 5875 6175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5BEF71E1
 P 3850 6775
 AR Path="/5B81CA77/5BEF71E1" Ref="#PWR?"  Part="1" 
@@ -710,7 +710,7 @@ F 3 "" H 3850 6775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:+VIN-MZBOT #PWR0164
+L MZBOT:+VIN #PWR0164
 U 1 1 5BF03C4A
 P 1850 1350
 F 0 "#PWR0164" H 1850 1200 50  0001 C CNN
@@ -725,7 +725,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 1550 1575 1550
 $Comp
-L Voron_Klipper_Board-rescue:VMOT-MZBOT #PWR0162
+L MZBOT:VMOT #PWR0162
 U 1 1 5BF10388
 P 1700 1175
 F 0 "#PWR0162" H 1700 1025 50  0001 C CNN
@@ -747,7 +747,7 @@ Wire Wire Line
 	1575 1650 1650 1650
 Connection ~ 1650 1650
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5BF85E6D
 P 1650 2125
 AR Path="/5B81CA77/5BF85E6D" Ref="#PWR?"  Part="1" 
@@ -766,7 +766,7 @@ $EndComp
 Wire Wire Line
 	1950 2725 2075 2725
 $Comp
-L Voron_Klipper_Board-rescue:Fuse_Holder-MZBOT F1
+L MZBOT:Fuse_Holder F1
 U 1 1 5BF87FF0
 P 1700 2725
 F 0 "F1" H 1700 2965 50  0000 C CNN
@@ -793,7 +793,7 @@ Wire Wire Line
 	2075 2775 2075 2725
 Connection ~ 2075 2725
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5BF88009
 P 1375 3125
 AR Path="/5B81CA77/5BF88009" Ref="#PWR?"  Part="1" 
@@ -812,7 +812,7 @@ $EndComp
 Wire Wire Line
 	1375 3075 1375 3125
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5BF88010
 P 2075 3125
 AR Path="/5B81CA77/5BF88010" Ref="#PWR?"  Part="1" 
@@ -835,7 +835,7 @@ Wire Wire Line
 Wire Wire Line
 	2075 2725 2250 2725
 $Comp
-L Voron_Klipper_Board-rescue:+VIN-MZBOT #PWR0153
+L MZBOT:+VIN #PWR0153
 U 1 1 5C025ABC
 P 1225 3700
 F 0 "#PWR0153" H 1225 3550 50  0001 C CNN
@@ -860,7 +860,7 @@ Wire Wire Line
 	2075 3900 2075 3850
 Connection ~ 2075 3850
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5C025AE5
 P 1375 4250
 AR Path="/5B81CA77/5C025AE5" Ref="#PWR?"  Part="1" 
@@ -879,7 +879,7 @@ $EndComp
 Wire Wire Line
 	1375 4200 1375 4250
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5C025AEC
 P 2075 4250
 AR Path="/5B81CA77/5C025AEC" Ref="#PWR?"  Part="1" 
@@ -916,7 +916,7 @@ Wire Wire Line
 	2075 5025 2075 4975
 Connection ~ 2075 4975
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5C0485E6
 P 1375 5375
 AR Path="/5B81CA77/5C0485E6" Ref="#PWR?"  Part="1" 
@@ -935,7 +935,7 @@ $EndComp
 Wire Wire Line
 	1375 5325 1375 5375
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5C0485ED
 P 2075 5375
 AR Path="/5B81CA77/5C0485ED" Ref="#PWR?"  Part="1" 
@@ -958,7 +958,7 @@ Wire Wire Line
 Wire Wire Line
 	2075 4975 2250 4975
 $Comp
-L Voron_Klipper_Board-rescue:VMOT_FUSED-MZBOT #PWR0170
+L MZBOT:VMOT_FUSED #PWR0170
 U 1 1 5C06EB22
 P 2250 2575
 F 0 "#PWR0170" H 2250 2425 50  0001 C CNN
@@ -969,7 +969,7 @@ F 3 "" H 2250 2575 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:+VIN_FUSED-MZBOT #PWR0171
+L MZBOT:+VIN_FUSED #PWR0171
 U 1 1 5C06EE0A
 P 2250 3700
 F 0 "#PWR0171" H 2250 3550 50  0001 C CNN
@@ -980,7 +980,7 @@ F 3 "" H 2250 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:VBED_FUSED-MZBOT #PWR0172
+L MZBOT:VBED_FUSED #PWR0172
 U 1 1 5C06F0B0
 P 2250 4825
 F 0 "#PWR0172" H 2250 4675 50  0001 C CNN
@@ -991,7 +991,7 @@ F 3 "" H 2250 4825 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:VMOT-MZBOT #PWR0152
+L MZBOT:VMOT #PWR0152
 U 1 1 5C06F379
 P 1225 2575
 F 0 "#PWR0152" H 1225 2425 50  0001 C CNN
@@ -1002,7 +1002,7 @@ F 3 "" H 1225 2575 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:+VIN_FUSED-MZBOT #PWR0176
+L MZBOT:+VIN_FUSED #PWR0176
 U 1 1 5C096271
 P 4225 1300
 F 0 "#PWR0176" H 4225 1150 50  0001 C CNN
@@ -1013,7 +1013,7 @@ F 3 "" H 4225 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:+VIN-MZBOT #PWR0158
+L MZBOT:+VIN #PWR0158
 U 1 1 5C0F03F9
 P 1400 6400
 F 0 "#PWR0158" H 1400 6250 50  0001 C CNN
@@ -1024,7 +1024,7 @@ F 3 "" H 1400 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:+12V-MZBOT #PWR?
+L MZBOT:+12V #PWR?
 U 1 1 5C0F04AD
 P 1625 6400
 AR Path="/5C0F04AD" Ref="#PWR?"  Part="1" 
@@ -1037,7 +1037,7 @@ F 3 "" H 1625 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:+5V-MZBOT #PWR0163
+L MZBOT:+5V #PWR0163
 U 1 1 5C0F055A
 P 1850 6400
 F 0 "#PWR0163" H 1850 6250 50  0001 C CNN
@@ -1048,7 +1048,7 @@ F 3 "" H 1850 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:+3.3V-MZBOT #PWR0169
+L MZBOT:+3.3V #PWR0169
 U 1 1 5C12966B
 P 2075 6400
 F 0 "#PWR0169" H 2075 6250 50  0001 C CNN
@@ -1059,7 +1059,7 @@ F 3 "" H 2075 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:LED_0805-MZBOT D11
+L MZBOT:LED_0805 D11
 U 1 1 5C12971A
 P 1400 6950
 F 0 "D11" V 1475 6925 50  0000 R CNN
@@ -1109,7 +1109,7 @@ Wire Wire Line
 	1400 7100 1400 7175
 Connection ~ 1400 7100
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5C27F2DB
 P 1400 7175
 AR Path="/5B81CA77/5C27F2DB" Ref="#PWR?"  Part="1" 
@@ -1147,7 +1147,7 @@ Wire Wire Line
 Text GLabel 1750 1850 2    39   Input ~ 0
 BED_SWITCH
 $Comp
-L Voron_Klipper_Board-rescue:VBED_FUSED-MZBOT #PWR0189
+L MZBOT:VBED_FUSED #PWR0189
 U 1 1 5C750245
 P 2125 1625
 F 0 "#PWR0189" H 2125 1475 50  0001 C CNN
@@ -1162,7 +1162,7 @@ Wire Wire Line
 Wire Wire Line
 	2125 1750 1575 1750
 $Comp
-L Voron_Klipper_Board-rescue:CONN_01X06-MZBOT J25
+L MZBOT:CONN_01X06 J25
 U 1 1 5C88E717
 P 1375 1600
 F 0 "J25" H 1319 2065 50  0000 C CNN
@@ -1177,7 +1177,7 @@ F 7 "4.72" H 1375 1600 50  0001 C CNN "Digikey Price"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:+VIN-MZBOT #PWR0154
+L MZBOT:+VIN #PWR0154
 U 1 1 5C88F1EA
 P 1225 4825
 F 0 "#PWR0154" H 1225 4675 50  0001 C CNN
@@ -1190,7 +1190,7 @@ $EndComp
 Wire Wire Line
 	1650 1650 1650 2125
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5C995B82
 P 10450 2125
 AR Path="/5B81CA77/5C995B82" Ref="#PWR?"  Part="1" 
@@ -1207,7 +1207,7 @@ F 3 "" H 10450 2125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:GND-MZBOT #PWR?
+L MZBOT:GND #PWR?
 U 1 1 5C996123
 P 10450 4150
 AR Path="/5B81CA77/5C996123" Ref="#PWR?"  Part="1" 
@@ -1252,7 +1252,7 @@ Wire Wire Line
 	5575 4125 5575 4025
 Connection ~ 5575 4025
 $Comp
-L Voron_Klipper_Board-rescue:AP2112-3.3-MZBOT U18
+L MZBOT:AP2112-3.3 U18
 U 1 1 5BD9BB62
 P 4975 6350
 F 0 "U18" H 4975 6642 50  0000 C CNN
@@ -1353,7 +1353,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 5900 3150 5725
 $Comp
-L Voron_Klipper_Board-rescue:+12V-MZBOT #PWR?
+L MZBOT:+12V #PWR?
 U 1 1 5C0922B7
 P 3150 5725
 AR Path="/5C0922B7" Ref="#PWR?"  Part="1" 
@@ -1366,7 +1366,7 @@ F 3 "" H 3150 5725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:VBUS-MZBOT #PWR0202
+L MZBOT:VBUS #PWR0202
 U 1 1 5C110664
 P 3150 6250
 F 0 "#PWR0202" H 3150 6100 50  0001 C CNN
@@ -1377,7 +1377,7 @@ F 3 "" H 3150 6250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:LED_0805-MZBOT D12
+L MZBOT:LED_0805 D12
 U 1 1 6081081B
 P 1625 6950
 F 0 "D12" V 1700 6925 50  0000 R CNN
@@ -1392,7 +1392,7 @@ F 7 "0.18" V 1625 6950 50  0001 C CNN "Digikey Price"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:LED_0805-MZBOT D13
+L MZBOT:LED_0805 D13
 U 1 1 608108CB
 P 1850 6950
 F 0 "D13" V 1925 6925 50  0000 R CNN
@@ -1407,7 +1407,7 @@ F 7 "0.18" V 1850 6950 50  0001 C CNN "Digikey Price"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:LED_0805-MZBOT D14
+L MZBOT:LED_0805 D14
 U 1 1 60810979
 P 2075 6950
 F 0 "D14" V 2150 6925 50  0000 R CNN
@@ -1422,7 +1422,7 @@ F 7 "0.18" V 2075 6950 50  0001 C CNN "Digikey Price"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:Fuse_Holder-MZBOT F2
+L MZBOT:Fuse_Holder F2
 U 1 1 60836976
 P 1700 3850
 F 0 "F2" H 1700 4090 50  0000 C CNN
@@ -1437,7 +1437,7 @@ F 7 "0.98" H 1700 3850 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:Fuse_Holder-MZBOT F3
+L MZBOT:Fuse_Holder F3
 U 1 1 60836C88
 P 1700 4975
 F 0 "F3" H 1700 5215 50  0000 C CNN
@@ -1452,7 +1452,7 @@ F 7 "0.98" H 1700 4975 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 608387D7
 P 1375 2925
 AR Path="/5B81CA77/608387D7" Ref="C?"  Part="1" 
@@ -1473,7 +1473,7 @@ F 10 "0.10" V 1375 2925 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 6084E9CA
 P 2075 2925
 AR Path="/5B81CA77/6084E9CA" Ref="C?"  Part="1" 
@@ -1494,7 +1494,7 @@ F 10 "0.10" V 2075 2925 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 6084EE31
 P 1375 4050
 AR Path="/5B81CA77/6084EE31" Ref="C?"  Part="1" 
@@ -1515,7 +1515,7 @@ F 10 "0.10" V 1375 4050 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 6084F0D9
 P 2075 4050
 AR Path="/5B81CA77/6084F0D9" Ref="C?"  Part="1" 
@@ -1536,7 +1536,7 @@ F 10 "0.10" V 2075 4050 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 6084F1DD
 P 1375 5175
 AR Path="/5B81CA77/6084F1DD" Ref="C?"  Part="1" 
@@ -1557,7 +1557,7 @@ F 10 "0.10" V 1375 5175 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 6084F2D7
 P 2075 5175
 AR Path="/5B81CA77/6084F2D7" Ref="C?"  Part="1" 
@@ -1578,7 +1578,7 @@ F 10 "0.10" V 2075 5175 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:R_0805-MZBOT R?
+L MZBOT:R_0805 R?
 U 1 1 60852BD8
 P 1400 6625
 AR Path="/5B81CA77/60852BD8" Ref="R?"  Part="1" 
@@ -1602,7 +1602,7 @@ F 10 "0.1" H 1400 6625 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:R_0805-MZBOT R?
+L MZBOT:R_0805 R?
 U 1 1 60868BD7
 P 1625 6625
 AR Path="/5B81CA77/60868BD7" Ref="R?"  Part="1" 
@@ -1626,7 +1626,7 @@ F 10 "0.1" H 1625 6625 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:R_0805-MZBOT R?
+L MZBOT:R_0805 R?
 U 1 1 60869E95
 P 1850 6625
 AR Path="/5B81CA77/60869E95" Ref="R?"  Part="1" 
@@ -1650,7 +1650,7 @@ F 10 "0.1" H 1850 6625 50  0001 C CNN "Digikey Price"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:R_0805-MZBOT R?
+L MZBOT:R_0805 R?
 U 1 1 608800C0
 P 2075 6625
 AR Path="/5B81CA77/608800C0" Ref="R?"  Part="1" 
@@ -1674,7 +1674,7 @@ F 10 "0.1" H 2075 6625 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:DB2W40300L-MZBOT D16
+L MZBOT:DB2W40300L D16
 U 1 1 6092EA86
 P 5175 3625
 F 0 "D16" H 5200 3525 50  0000 C CNN
@@ -1689,7 +1689,7 @@ F 7 "0.60" H 5175 3625 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:CP1-MZBOT C?
+L MZBOT:CP1 C?
 U 1 1 6092FAEC
 P 5575 1800
 AR Path="/5B81CA77/6092FAEC" Ref="C?"  Part="1" 
@@ -1709,7 +1709,7 @@ F 10 "0.78" V 5575 1800 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:CP1-MZBOT C?
+L MZBOT:CP1 C?
 U 1 1 60946260
 P 5575 3825
 AR Path="/5B81CA77/60946260" Ref="C?"  Part="1" 
@@ -1729,7 +1729,7 @@ F 10 "0.78" V 5575 3825 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 60946DE3
 P 6075 1800
 AR Path="/5B81CA77/60946DE3" Ref="C?"  Part="1" 
@@ -1750,7 +1750,7 @@ F 10 "0.10" V 6075 1800 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 60947504
 P 6075 3825
 AR Path="/5B81CA77/60947504" Ref="C?"  Part="1" 
@@ -1771,7 +1771,7 @@ F 10 "0.10" V 6075 3825 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_1210-MZBOT C152
+L MZBOT:C_1210 C152
 U 1 1 6094A07E
 P 5825 3825
 F 0 "C152" H 5850 3900 39  0000 L CNN
@@ -1789,7 +1789,7 @@ F 10 "1.08" H 5825 3825 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:R_0805-MZBOT R82
+L MZBOT:R_0805 R82
 U 1 1 6094DE0C
 P 6325 3825
 F 0 "R82" H 6395 3909 50  0000 L CNN
@@ -1807,7 +1807,7 @@ F 10 "0.10" H 6325 3825 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:A4403-MZBOT U20
+L MZBOT:A4403 U20
 U 1 1 6094EB27
 P 7175 4075
 F 0 "U20" H 7175 4692 50  0000 C CNN
@@ -1822,7 +1822,7 @@ F 7 "1.82" H 7175 4075 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 6094F52C
 P 6325 2550
 AR Path="/5B81CA77/6094F52C" Ref="C?"  Part="1" 
@@ -1843,7 +1843,7 @@ F 10 "0.10" V 6325 2550 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 6094F96C
 P 6325 4575
 AR Path="/5B81CA77/6094F96C" Ref="C?"  Part="1" 
@@ -1864,7 +1864,7 @@ F 10 "0.10" V 6325 4575 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:R_0805-MZBOT R79
+L MZBOT:R_0805 R79
 U 1 1 609507BB
 P 6000 2550
 F 0 "R79" H 6070 2634 50  0000 L CNN
@@ -1882,7 +1882,7 @@ F 10 "0.10" H 6000 2550 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:R_0805-MZBOT R80
+L MZBOT:R_0805 R80
 U 1 1 60950EA5
 P 6000 4575
 F 0 "R80" H 6070 4659 50  0000 L CNN
@@ -1900,7 +1900,7 @@ F 10 "0.10" H 6000 4575 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_1210-MZBOT C159
+L MZBOT:C_1210 C159
 U 1 1 60951B8A
 P 9175 1800
 F 0 "C159" H 9200 1875 39  0000 L CNN
@@ -1918,7 +1918,7 @@ F 10 "1.08" H 9175 1800 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_1210-MZBOT C161
+L MZBOT:C_1210 C161
 U 1 1 609522E9
 P 10450 1875
 F 0 "C161" H 10475 1950 39  0000 L CNN
@@ -1936,7 +1936,7 @@ F 10 "1.08" H 10450 1875 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_1210-MZBOT C162
+L MZBOT:C_1210 C162
 U 1 1 609531B5
 P 10450 3900
 F 0 "C162" H 10475 3975 39  0000 L CNN
@@ -1954,7 +1954,7 @@ F 10 "1.08" H 10450 3900 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_1210-MZBOT C160
+L MZBOT:C_1210 C160
 U 1 1 609539F2
 P 9175 3825
 F 0 "C160" H 9200 3900 39  0000 L CNN
@@ -1972,7 +1972,7 @@ F 10 "1.08" H 9175 3825 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 60954A36
 P 8025 1600
 AR Path="/5B81CA77/60954A36" Ref="C?"  Part="1" 
@@ -1993,7 +1993,7 @@ F 10 "0.10" V 8025 1600 50  0001 C CNN "Digikey Price"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 6096A647
 P 8025 3625
 AR Path="/5B81CA77/6096A647" Ref="C?"  Part="1" 
@@ -2014,7 +2014,7 @@ F 10 "0.10" V 8025 3625 50  0001 C CNN "Digikey Price"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:DB2W40300L-MZBOT D17
+L MZBOT:DB2W40300L D17
 U 1 1 60980DB8
 P 8375 2000
 F 0 "D17" H 8400 1900 50  0000 C CNN
@@ -2029,7 +2029,7 @@ F 7 "0.60" H 8375 2000 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:DB2W40300L-MZBOT D18
+L MZBOT:DB2W40300L D18
 U 1 1 609811BF
 P 8375 4025
 F 0 "D18" H 8400 3925 50  0000 C CNN
@@ -2044,7 +2044,7 @@ F 7 "0.60" H 8375 4025 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 6098238B
 P 9425 1800
 AR Path="/5B81CA77/6098238B" Ref="C?"  Part="1" 
@@ -2065,7 +2065,7 @@ F 10 "0.10" V 9425 1800 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 60982F0F
 P 10025 1875
 AR Path="/5B81CA77/60982F0F" Ref="C?"  Part="1" 
@@ -2086,7 +2086,7 @@ F 10 "0.32" V 10025 1875 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 609834F0
 P 10025 3900
 AR Path="/5B81CA77/609834F0" Ref="C?"  Part="1" 
@@ -2107,7 +2107,7 @@ F 10 "0.10" V 10025 3900 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 60983DB2
 P 9425 3825
 AR Path="/5B81CA77/60983DB2" Ref="C?"  Part="1" 
@@ -2128,7 +2128,7 @@ F 10 "0.10" V 9425 3825 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:R_1210-MZBOT R85
+L MZBOT:R_1210 R85
 U 1 1 6098467C
 P 8100 2175
 F 0 "R85" H 7925 2250 39  0000 L CNN
@@ -2146,7 +2146,7 @@ F 10 "0.42" H 8100 2175 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:R_1210-MZBOT R84
+L MZBOT:R_1210 R84
 U 1 1 60984CD1
 P 7875 4200
 F 0 "R84" H 7700 4275 39  0000 L CNN
@@ -2164,7 +2164,7 @@ F 10 "0.47" H 7875 4200 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:R_1210-MZBOT R86
+L MZBOT:R_1210 R86
 U 1 1 6099B10D
 P 8100 4200
 F 0 "R86" H 7925 4275 39  0000 L CNN
@@ -2182,7 +2182,7 @@ F 10 "0.47" H 8100 4200 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:Inductor-MZBOT L4
+L MZBOT:Inductor L4
 U 1 1 6099BB70
 P 8900 3625
 F 0 "L4" H 8900 3828 50  0000 C CNN
@@ -2197,7 +2197,7 @@ F 7 "1.72" H 8900 3625 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:R_0805-MZBOT R?
+L MZBOT:R_0805 R?
 U 1 1 6099C90C
 P 9675 1925
 AR Path="/5B81CA77/6099C90C" Ref="R?"  Part="1" 
@@ -2221,7 +2221,7 @@ F 10 "0.1" H 9675 1925 50  0001 C CNN "Digikey Price"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:R_0805-MZBOT R?
+L MZBOT:R_0805 R?
 U 1 1 6099DA85
 P 9675 2700
 AR Path="/5B81CA77/6099DA85" Ref="R?"  Part="1" 
@@ -2245,7 +2245,7 @@ F 10 "0.1" H 9675 2700 50  0001 C CNN "Digikey Price"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:R_0805-MZBOT R?
+L MZBOT:R_0805 R?
 U 1 1 6099EEBD
 P 9675 4725
 AR Path="/5B81CA77/6099EEBD" Ref="R?"  Part="1" 
@@ -2269,7 +2269,7 @@ F 10 "0.1" H 9675 4725 50  0001 C CNN "Digikey Price"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:R_0805-MZBOT R?
+L MZBOT:R_0805 R?
 U 1 1 6099F9A0
 P 9675 3950
 AR Path="/5B81CA77/6099F9A0" Ref="R?"  Part="1" 
@@ -2293,7 +2293,7 @@ F 10 "0.1" H 9675 3950 50  0001 C CNN "Digikey Price"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:R_0805-MZBOT R95
+L MZBOT:R_0805 R95
 U 1 1 609A11C0
 P 3775 5600
 F 0 "R95" V 3700 5525 50  0000 L CNN
@@ -2311,7 +2311,7 @@ F 10 "0.10" H 3775 5600 50  0001 C CNN "Digikey Price"
 	0    1    1    0   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:R_0805-MZBOT R94
+L MZBOT:R_0805 R94
 U 1 1 609A20A2
 P 3350 5900
 F 0 "R94" V 3275 5825 50  0000 L CNN
@@ -2329,7 +2329,7 @@ F 10 "0.10" H 3350 5900 50  0001 C CNN "Digikey Price"
 	0    1    1    0   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:DB2W40300L-MZBOT D19
+L MZBOT:DB2W40300L D19
 U 1 1 609A249E
 P 3575 6300
 F 0 "D19" H 3600 6200 50  0000 C CNN
@@ -2344,7 +2344,7 @@ F 7 "0.60" H 3575 6300 50  0001 C CNN "Digikey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:PMV40UN-MZBOT U?
+L MZBOT:PMV40UN U?
 U 1 1 609A2C4F
 P 3950 5900
 AR Path="/5BAA6E9F/609A2C4F" Ref="U?"  Part="1" 
@@ -2361,7 +2361,7 @@ F 7 "0.57" H 3950 5900 50  0001 C CNN "Digikey Price"
 	1    0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 609F9515
 P 3850 6500
 AR Path="/5B81CA77/609F9515" Ref="C?"  Part="1" 
@@ -2382,7 +2382,7 @@ F 10 "0.21" V 3850 6500 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 60A101BD
 P 5550 6525
 AR Path="/5B81CA77/60A101BD" Ref="C?"  Part="1" 
@@ -2403,7 +2403,7 @@ F 10 "0.21" V 5550 6525 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 60A11CEF
 P 4075 6500
 AR Path="/5B81CA77/60A11CEF" Ref="C?"  Part="1" 
@@ -2424,7 +2424,7 @@ F 10 "0.10" V 4075 6500 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:C_0805-MZBOT C?
+L MZBOT:C_0805 C?
 U 1 1 60A2847B
 P 5875 6525
 AR Path="/5B81CA77/60A2847B" Ref="C?"  Part="1" 
@@ -2445,7 +2445,7 @@ F 10 "0.10" V 5875 6525 50  0001 C CNN "Digikey Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:R_0805-MZBOT R96
+L MZBOT:R_0805 R96
 U 1 1 60A29646
 P 4450 6400
 F 0 "R96" V 4550 6400 50  0000 L CNN
@@ -2470,4 +2470,5 @@ Text Notes 9750 4450 0    50   ~ 0
 Updated R164  from 100nF to 100nF\n
 Text Notes 9750 4525 0    50   ~ 0
 Updated R89  from 3.6k to 3.48k\n
+NoConn ~ 5275 6500
 $EndSCHEMATC

@@ -62,7 +62,7 @@ F0 "Power" 79
 F1 "Power.sch" 79
 $EndSheet
 $Comp
-L Voron_Klipper_Board-rescue:FIDUCIAL_1MM-MZBOT FID1
+L MZBOT:FIDUCIAL_1MM FID1
 U 1 1 5CADE6A5
 P 5950 4950
 F 0 "FID1" H 5900 5075 50  0000 L CNN
@@ -73,7 +73,7 @@ F 3 "" H 5950 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:FIDUCIAL_1MM-MZBOT FID2
+L MZBOT:FIDUCIAL_1MM FID2
 U 1 1 5CADE6C7
 P 6225 4950
 F 0 "FID2" H 6175 5075 50  0000 L CNN
@@ -84,7 +84,7 @@ F 3 "" H 6225 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:FIDUCIAL_1MM-MZBOT FID3
+L MZBOT:FIDUCIAL_1MM FID3
 U 1 1 5CADE6E9
 P 6500 4950
 F 0 "FID3" H 6450 5075 50  0000 L CNN
@@ -95,7 +95,7 @@ F 3 "" H 6500 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:MountingHole-MZBOT MH1
+L MZBOT:MountingHole MH1
 U 1 1 5CADE712
 P 5950 5175
 F 0 "MH1" H 5900 5050 50  0000 L CNN
@@ -106,7 +106,7 @@ F 3 "~" H 5950 5175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:MountingHole-MZBOT MH2
+L MZBOT:MountingHole MH2
 U 1 1 5CADE7C5
 P 6225 5175
 F 0 "MH2" V 6350 5125 50  0000 L CNN
@@ -117,7 +117,7 @@ F 3 "~" H 6225 5175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:MountingHole-MZBOT MH3
+L MZBOT:MountingHole MH3
 U 1 1 5CADE871
 P 6500 5175
 F 0 "MH3" H 6450 5050 50  0000 L CNN
@@ -128,7 +128,7 @@ F 3 "~" H 6500 5175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:TACo-MZBOT G1
+L MZBOT:TACo G1
 U 1 1 60A4986D
 P 7425 5125
 F 0 "G1" H 7425 4882 60  0001 C CNN
@@ -139,7 +139,7 @@ F 3 "" H 7425 5125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:mzbot-MZBOT G2
+L MZBOT:mzbot G2
 U 1 1 60A4A39C
 P 8025 5150
 F 0 "G2" H 8025 4850 60  0001 C CNN
@@ -150,7 +150,7 @@ F 3 "" H 8025 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Voron_Klipper_Board-rescue:MountingHole-MZBOT MH4
+L MZBOT:MountingHole MH4
 U 1 1 60A4B4FD
 P 6775 5175
 F 0 "MH4" H 6725 5050 50  0000 L CNN
